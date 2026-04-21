@@ -5,3 +5,82 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* ACA VA LA SECCION DE CSS DEL FOOTER */
+.footer {
+  background: #0f172a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-brand h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.footer-brand p {
+  max-width: 320px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #cbd5e1;
+}
+
+.footer-links {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #e5e7eb;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #60a5fa;
+}
+
+.footer-copy p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.footer-logo {
+  width: 75px;
+  height: auto;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-brand p {
+    margin: 0 auto;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+}
