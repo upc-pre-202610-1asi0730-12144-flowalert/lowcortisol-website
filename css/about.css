@@ -1,1 +1,145 @@
-/* ACA VA LA SECCION DE CSS DE QUIENES SOMOS */
+.about-section {
+  padding: 80px 0;
+  background: linear-gradient(to bottom, #f9fafb, #eff6ff);
+  font-family: Arial, sans-serif;
+}
+
+.about-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.about-badge {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about-header h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 14px;
+}
+
+.about-header p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #475569;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.about-card {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08),
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-4px);
+}
+
+.about-vision-card {
+  border: 2px solid #E5E7EB;
+}
+
+.about-mission-card {
+  border: 2px solid #E5E7EB;
+}
+
+.about-icon-container {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0ea5e9, #3b82f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.about-icon-container img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.about-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 14px;
+}
+
+.about-card p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #334155;
+}
+
+.about-info-box {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.about-info-box h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.about-info-box p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #475569;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-header h2 {
+    font-size: 32px;
+  }
+
+  .about-header p {
+    font-size: 16px;
+  }
+
+  .about-card,
+  .about-info-box {
+    padding: 24px;
+  }
+}
