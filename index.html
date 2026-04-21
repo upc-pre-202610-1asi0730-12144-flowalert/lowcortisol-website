@@ -10,16 +10,57 @@
 
   <!-- ===================== -->
   <!-- HEADER -->
+  
   <header class="header">
-    
-  </header>
+    <div class="header-container">
+      <a href="#home" class="header-logo">
+        <img src="assets/images/logo.png" alt="Logo LowCortisol">
+      </a>
 
+      <nav class="header-nav">
+        <a href="#home">Inicio</a>
+        <a href="#benefits">Beneficio</a>
+        <a href="#features">Funcionalidades</a>
+        <a href="#about">Quienes Somos</a>
+        <a href="#planes">Planes</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+
+      <a href="#" class="header-login-button">Iniciar Sesion</a>
+    </div>
+  </header>
   <!-- ===================== -->
   <!-- HOME -->
   <!-- ===================== -->
 
   <section id="home" class="home">
+    <div class="home-container">
+      <div class="home-content">
+        <div class="home-text">
+          <h1>Low cortisol</h1>
 
+          <h2>
+            Controla tus recursos,
+            <span>previene fugas</span>
+          </h2>
+
+          <p>
+            Monitoreo en tiempo real de redes de agua y gas para hogares y
+            profesionales, que previene fugas, mejora la seguridad y reduce
+            costos mediante alertas inteligentes.
+          </p>
+
+          <div class="home-buttons">
+            <a href="#planes" class="home-button home-button-primary">Ver Planes</a>
+            <a href="#contact" class="home-button home-button-secondary">Solicitar Demo</a>
+          </div>
+        </div>
+
+        <div class="home-image">
+          <img src="assets/images/hero.jpg" alt="Técnico revisando instalación">
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -50,7 +91,7 @@
   <!-- ABOUT -->
   <!-- ===================== -->
 
-<section class="about-section">
+<section id="about" class="about-section">
   <div class="about-container">
 
     <div class="about-header">
@@ -256,13 +297,100 @@
   <!-- ===================== -->
 
   <section id="contact" class="contact">
-    <h2>CONTACTO</h2>
+    <div class="contact-container">
+      <div class="contact-header">
+        <span class="contact-badge">Contacto</span>
+        <h2>Comienza a monitorear tus recursos hoy</h2>
+        <p>
+          Agenda una demo personalizada y descubre cómo LowCortisol puede ayudarte
+          a prevenir fugas, ahorrar costos y mejorar la seguridad
+        </p>
+      </div>
 
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>¿Tienes preguntas?</h3>
+          <p>
+            Contáctanos y descubre cómo LowCortisol puede transformar la gestión
+            de tus recursos.
+          </p>
+
+          <div class="contact-card">
+            <div class="contact-card-icon contact-card-icon-blue">
+              <img src="assets/icons/eye.svg" alt="Icono email">
+            </div>
+            <div class="contact-card-text">
+              <h4>Email</h4>
+              <p>contacto@lowcortisol.io</p>
+              <p>ventas@lowcortisol.io</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon contact-card-icon-green">
+              <img src="assets/icons/target.svg" alt="Icono teléfono">
+            </div>
+            <div class="contact-card-text">
+              <h4>Teléfono</h4>
+              <p>+51 11 1234-5678</p>
+              <p>Lun - Vie: 9:00 - 18:00</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon contact-card-icon-purple">
+              <img src="assets/icons/building.svg" alt="Icono oficina">
+            </div>
+            <div class="contact-card-text">
+              <h4>Oficina</h4>
+              <p>Av. Javier Prado 1234, Piso 5</p>
+              <p>Santiago de Surco, Lima</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form">
+            <label for="fullName">Nombre Completo *</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enrique Iglesias Peralta">
+
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="enriquelglepe@gmail.com">
+
+            <label for="clientType">Tipo de cliente *</label>
+            <input type="text" id="clientType" name="clientType" placeholder="Personas Residencial">
+
+            <label for="message">Mensaje *</label>
+            <textarea id="message" name="message" placeholder="Cuéntanos más"></textarea>
+
+            <button type="submit" class="contact-button">ENVIAR MENSAJE</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>LowCortisol</h3>
+          <p>Monitoreo inteligente para prevenir fugas y optimizar recursos.</p>
+        </div>
 
+        <div class="footer-links">
+          <a href="#home">Inicio</a>
+          <a href="#features">Funcionalidades</a>
+          <a href="#planes">Planes</a>
+          <a href="#contact">Contacto</a>
+        </div>
+
+        <div class="footer-copy">
+          <p>© 2026 LowCortisol. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
   </footer>
 
 
