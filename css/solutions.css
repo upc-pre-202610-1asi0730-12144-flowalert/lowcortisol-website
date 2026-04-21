@@ -138,13 +138,35 @@
 }
 
 /* ============================================
+   PARTE DERECHA - Imagenes
+   ============================================ */
+.ICON-Usuarios-IMG{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+
+
+/* ============================================
    PARTE DERECHA - Contenido
    ============================================ */
+.ICON_USUARIOS
+{
+    display: flex;
+    align-self: flex-start;
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+}
+
+
 .RightPart-Usuarios {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex: 1;
     text-align: left;
 }
