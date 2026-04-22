@@ -186,9 +186,10 @@
     }
   
     .benefit-card {
-      min-width: 85%;
-      flex: 0 0 85%;
-      scroll-snap-align: center;
+        min-width: 92%;
+        flex: 0 0 92%;
+        margin: 0 4%;
+        scroll-snap-align: center;
     }
   
     .benefits-dots {
