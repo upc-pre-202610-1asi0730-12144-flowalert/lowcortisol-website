@@ -26,7 +26,11 @@
         <a href="#contact">Contacto</a>
       </nav>
 
+      <a id="lang-toggle" type="button" class="lang-toggle">EN</a>
+
+
       <a href="#" class="header-login-button">Iniciar Sesion</a>
+
     </div>
   </header>
   <!-- ===================== -->
@@ -352,61 +356,69 @@
         </div>
       </div>
 
-      <div class="plans-grid">
-        <article class="plan-card">
-          <h4>Básico</h4>
-          <span class="plan-subtitle">Ideal para departamentos y casas pequeñas</span>
-          <div class="plan-price">S/. 29<span>/mes</span></div>
+      <div class="plans-slider" id="slider-residencial">
+        <div class="plans-grid">
+          <article class="plan-card">
+            <h4>Básico</h4>
+            <span class="plan-subtitle">Ideal para departamentos y casas pequeñas</span>
+            <div class="plan-price">S/. 29<span>/mes</span></div>
 
-          <ul class="plan-features">
-            <li>Monitoreo de 1 red (agua o gas)</li>
-            <li>Alertas básicas por email</li>
-            <li>App móvil intuitiva</li>
-            <li>Histórico de 30 días</li>
-            <li>1 sensor incluido</li>
-            <li>Sin conocimientos técnicos requeridos</li>
-          </ul>
+            <ul class="plan-features">
+              <li>Monitoreo de 1 red (agua o gas)</li>
+              <li>Alertas básicas por email</li>
+              <li>App móvil intuitiva</li>
+              <li>Histórico de 30 días</li>
+              <li>1 sensor incluido</li>
+              <li>Sin conocimientos técnicos requeridos</li>
+            </ul>
 
-          <button class="plan-button" type="button">Comprar</button>
-        </article>
+            <button class="plan-button" type="button">Comprar</button>
+          </article>
 
-        <article class="plan-card plan-card-popular plan-card-popular-blue">
-          <span class="plan-popular-badge">Más Popular</span>
-          <h4>Familiar</h4>
-          <span class="plan-subtitle">Perfecto para hogares completos</span>
-          <div class="plan-price">S/. 59<span>/mes</span></div>
+          <article class="plan-card plan-card-popular plan-card-popular-blue">
+            <span class="plan-popular-badge">Más Popular</span>
+            <h4>Familiar</h4>
+            <span class="plan-subtitle">Perfecto para hogares completos</span>
+            <div class="plan-price">S/. 59<span>/mes</span></div>
 
-          <ul class="plan-features">
-            <li>Monitoreo de hasta 3 redes</li>
-            <li>Alertas avanzadas (email + SMS + push)</li>
-            <li>Control remoto de válvulas desde el celular</li>
-            <li>Histórico de 12 meses</li>
-            <li>Hasta 3 sensores incluidos</li>
-            <li>Análisis de consumo y ahorro</li>
-            <li>Instalación guiada paso a paso</li>
-          </ul>
+            <ul class="plan-features">
+              <li>Monitoreo de hasta 3 redes</li>
+              <li>Alertas avanzadas (email + SMS + push)</li>
+              <li>Control remoto de válvulas desde el celular</li>
+              <li>Histórico de 12 meses</li>
+              <li>Hasta 3 sensores incluidos</li>
+              <li>Análisis de consumo y ahorro</li>
+              <li>Instalación guiada paso a paso</li>
+            </ul>
 
-          <button class="plan-button plan-button-primary" type="button">Comprar</button>
-        </article>
+            <button class="plan-button plan-button-primary" type="button">Comprar</button>
+          </article>
 
-        <article class="plan-card">
-          <h4>Premium</h4>
-          <span class="plan-subtitle">Para casas grandes y múltiples propiedades</span>
-          <div class="plan-price">S/. 99<span>/mes</span></div>
+          <article class="plan-card">
+            <h4>Premium</h4>
+            <span class="plan-subtitle">Para casas grandes y múltiples propiedades</span>
+            <div class="plan-price">S/. 99<span>/mes</span></div>
 
-          <ul class="plan-features">
-            <li>Monitoreo ilimitado de redes</li>
-            <li>Alertas prioritarias multicanal</li>
-            <li>Control remoto avanzado</li>
-            <li>Histórico ilimitado</li>
-            <li>Hasta 5 sensores incluidos</li>
-            <li>IA predictiva para prevención de fugas</li>
-            <li>Ahorro garantizado hasta 40%</li>
-            <li>Soporte premium 24/7</li>
-          </ul>
+            <ul class="plan-features">
+              <li>Monitoreo ilimitado de redes</li>
+              <li>Alertas prioritarias multicanal</li>
+              <li>Control remoto avanzado</li>
+              <li>Histórico ilimitado</li>
+              <li>Hasta 5 sensores incluidos</li>
+              <li>IA predictiva para prevención de fugas</li>
+              <li>Ahorro garantizado hasta 40%</li>
+              <li>Soporte premium 24/7</li>
+            </ul>
 
-          <button class="plan-button" type="button">Comprar</button>
-        </article>
+            <button class="plan-button" type="button">Comprar</button>
+          </article>
+        </div>
+      </div>
+
+      <div class="slider-dots" data-slider="slider-residencial">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
       </div>
     </div>
 
@@ -422,66 +434,73 @@
         </div>
       </div>
 
-      <div class="plans-grid">
-        <article class="plan-card">
-          <h4>Empresarial</h4>
-          <span class="plan-subtitle">Para edificios y pequeñas empresas</span>
-          <div class="plan-price">S/. 299<span>/mes</span></div>
+      <div class="plans-slider" id="slider-empresarial">
+        <div class="plans-grid">
+          <article class="plan-card">
+            <h4>Empresarial</h4>
+            <span class="plan-subtitle">Para edificios y pequeñas empresas</span>
+            <div class="plan-price">S/. 299<span>/mes</span></div>
 
-          <ul class="plan-features">
-            <li>Hasta 20 puntos de monitoreo</li>
-            <li>Dashboard centralizado profesional</li>
-            <li>Múltiples usuarios (hasta 5)</li>
-            <li>Reportes automáticos y análisis</li>
-            <li>API para integración con sistemas</li>
-            <li>Prevención proactiva de fallas</li>
-            <li>Soporte técnico dedicado</li>
-          </ul>
+            <ul class="plan-features">
+              <li>Hasta 20 puntos de monitoreo</li>
+              <li>Dashboard centralizado profesional</li>
+              <li>Múltiples usuarios (hasta 5)</li>
+              <li>Reportes automáticos y análisis</li>
+              <li>API para integración con sistemas</li>
+              <li>Prevención proactiva de fallas</li>
+              <li>Soporte técnico dedicado</li>
+            </ul>
 
-          <button class="plan-button" type="button">Comprar</button>
-        </article>
+            <button class="plan-button" type="button">Comprar</button>
+          </article>
 
-        <article class="plan-card plan-card-popular plan-card-popular-purple">
-          <span class="plan-popular-badge plan-popular-badge-purple">Más Popular</span>
-          <h4>Corporativo</h4>
-          <span class="plan-subtitle">Para hoteles, municipios e industrias</span>
-          <div class="plan-price">S/. 799<span>/mes</span></div>
+          <article class="plan-card plan-card-popular plan-card-popular-purple">
+            <span class="plan-popular-badge plan-popular-badge-purple">Más Popular</span>
+            <h4>Corporativo</h4>
+            <span class="plan-subtitle">Para hoteles, municipios e industrias</span>
+            <div class="plan-price">S/. 799<span>/mes</span></div>
 
-          <ul class="plan-features">
-            <li>Monitoreo ilimitado</li>
-            <li>Gestión multi-sede centralizada</li>
-            <li>Usuarios ilimitados con roles</li>
-            <li>Alertas personalizadas por rol y equipo</li>
-            <li>Integración con sistemas existentes</li>
-            <li>IA y análisis predictivo avanzado</li>
-            <li>Reportes ejecutivos automáticos</li>
-            <li>Ingeniero de soporte asignado 24/7</li>
-          </ul>
+            <ul class="plan-features">
+              <li>Monitoreo ilimitado</li>
+              <li>Gestión multi-sede centralizada</li>
+              <li>Usuarios ilimitados con roles</li>
+              <li>Alertas personalizadas por rol y equipo</li>
+              <li>Integración con sistemas existentes</li>
+              <li>IA y análisis predictivo avanzado</li>
+              <li>Reportes ejecutivos automáticos</li>
+              <li>Ingeniero de soporte asignado 24/7</li>
+            </ul>
 
-          <button class="plan-button plan-button-primary" type="button">Comprar</button>
-        </article>
+            <button class="plan-button plan-button-primary" type="button">Comprar</button>
+          </article>
 
-        <article class="plan-card">
-          <h4>Enterprise</h4>
-          <span class="plan-subtitle">Soluciones a medida para grandes infraestructuras</span>
-          <div class="plan-price">Personalizado</div>
+          <article class="plan-card">
+            <h4>Enterprise</h4>
+            <span class="plan-subtitle">Soluciones a medida para grandes infraestructuras</span>
+            <div class="plan-price">Personalizado</div>
 
-          <ul class="plan-features">
-            <li>Todo lo incluido en Corporativo</li>
-            <li>Infraestructura dedicada y aislada</li>
-            <li>Desarrollo de funcionalidades personalizadas</li>
-            <li>Consultoría técnica especializada</li>
-            <li>Cumplimiento normativo garantizado</li>
-            <li>Control operativo multi-instalación</li>
-          </ul>
+            <ul class="plan-features">
+              <li>Todo lo incluido en Corporativo</li>
+              <li>Infraestructura dedicada y aislada</li>
+              <li>Desarrollo de funcionalidades personalizadas</li>
+              <li>Consultoría técnica especializada</li>
+              <li>Cumplimiento normativo garantizado</li>
+              <li>Control operativo multi-instalación</li>
+            </ul>
 
-          <button class="plan-button" type="button">Comprar</button>
-        </article>
+            <button class="plan-button" type="button">Comprar</button>
+          </article>
+        </div>
+      </div>
+
+      <div class="slider-dots" data-slider="slider-empresarial">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
       </div>
     </div>
   </div>
 </section>
-
   <!-- ===================== -->
   <!-- CONTACT -->
   <!-- ===================== -->

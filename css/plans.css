@@ -208,17 +208,149 @@
   background: #8b5cf6;
 }
 
-/* Responsive */
+/* Ocultar puntitos en desktop */
+.slider-dots {
+  display: none;
+}
+
 @media (max-width: 900px) {
+  .plans-slider {
+    overflow-x: auto;
+    overflow-y: visible;
+    padding-top: 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .plans-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .plan-popular-badge {
+    top: -12px;
+    z-index: 5;
+  }
+
   .plans-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    gap: 0;
+    width: max-content;
   }
 
-  .plans-header h2 {
-    font-size: 30px;
+  .plan-card {
+    flex: 0 0 320px;      /* ancho fijo similar al desktop */
+    width: 320px;
+    max-width: 320px;
+    min-width: 320px;
+    box-sizing: border-box;
+    scroll-snap-align: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 calc((100vw - 320px) / 2);
   }
 
-  .plans-category-header {
-    align-items: flex-start;
+  .plan-features {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .plan-button {
+    align-self: center;
+  }
+
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  .slider-dots .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #d1d5db;
+    border: 1px solid #111827;
+  }
+
+  .slider-dots .dot.active {
+    background: #111827;
+  }
+}
+
+@media (max-width: 900px) {
+  .plans-slider {
+    overflow-x: auto;
+    overflow-y: visible;
+    padding-top: 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .plans-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .plan-popular-badge {
+    top: -12px;
+    z-index: 5;
+  }
+
+  .plans-grid {
+    display: flex;
+    gap: 0;
+    width: max-content;
+  }
+
+  .plan-card {
+    flex: 0 0 320px;      /* ancho fijo similar al desktop */
+    width: 320px;
+    max-width: 320px;
+    min-width: 320px;
+    box-sizing: border-box;
+    scroll-snap-align: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 calc((100vw - 320px) / 2);
+  }
+
+  .plan-features {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .plan-button {
+    align-self: center;
+  }
+
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  .slider-dots .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #d1d5db;
+    border: 1px solid #111827;
+  }
+
+  .slider-dots .dot.active {
+    background: #111827;
+  }
+}
+
+@media (max-width: 480px) {
+  .plan-card {
+    flex: 0 0 280px;
+    width: 280px;
+    max-width: 280px;
+    min-width: 280px;
+    margin: 0 calc((100vw - 280px) / 2);
   }
 }
