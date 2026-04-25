@@ -206,12 +206,11 @@
     }
   
     .dot {
-      width: 10px;
-      height: 10px;
-      border: 1px solid #111827;
-      border-radius: 50%;
-      background: #ffffff;
-      transition: all 0.3s ease;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #d1d5db;
+    border: 1px solid #111827;
     }
   
     .dot.active {

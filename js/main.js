@@ -11,6 +11,50 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+const benefitsSlider = document.querySelector(".benefits-grid");
+const benefitsCards = document.querySelectorAll(".benefit-card");
+const benefitsDots = document.querySelectorAll(".benefits-dots .dot");
+
+if (benefitsSlider && benefitsDots.length > 0) {
+  function updateBenefitsDots() {
+    const center = benefitsSlider.scrollLeft + benefitsSlider.offsetWidth / 2;
+
+    let activeIndex = 0;
+    let minDistance = Infinity;
+
+    benefitsCards.forEach((card, index) => {
+      const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+      const distance = Math.abs(center - cardCenter);
+
+      if (distance < minDistance) {
+        minDistance = distance;
+        activeIndex = index;
+      }
+    });
+
+    benefitsDots.forEach(dot => dot.classList.remove("active"));
+
+    if (benefitsDots[activeIndex]) {
+      benefitsDots[activeIndex].classList.add("active");
+    }
+  }
+
+  benefitsSlider.addEventListener("scroll", updateBenefitsDots);
+
+  benefitsDots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      benefitsCards[index].scrollIntoView({
+        behavior: "smooth",
+        inline: "center",
+        block: "nearest"
+      });
+    });
+  });
+
+  updateBenefitsDots();
+}
+
+
 document.querySelectorAll('.slider-dots').forEach(dotsContainer => {
 
   const sliderId = dotsContainer.getAttribute('data-slider');
