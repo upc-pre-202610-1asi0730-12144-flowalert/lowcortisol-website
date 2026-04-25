@@ -28,10 +28,11 @@
 }
 
 .plans-header h2 {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
   color: #111827;
   margin-bottom: 14px;
+  line-height: 1.2;
 }
 
 .plans-header p {

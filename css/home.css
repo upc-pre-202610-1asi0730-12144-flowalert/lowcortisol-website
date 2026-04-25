@@ -1,12 +1,17 @@
 /* ACA VA LA SECCION DE CSS DE INICIO */
 
 .home {
-  padding: 90px 0 80px;
+  min-height: calc(100vh - 80px);
+  padding: 60px 0;
   background: linear-gradient(to bottom, #eff6ff, #ffffff);
   font-family: Arial, sans-serif;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 120px;
 }
 
 .home-container {
+  width: 100%;
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 20px;

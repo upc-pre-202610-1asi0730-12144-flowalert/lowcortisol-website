@@ -6,6 +6,25 @@
   box-sizing: border-box;
 }
 
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+html {
+  scroll-padding-top: 30px;
+}
+
+section {
+  font-family: inherit;
+}
+
+
+
+
+
+
+
 /* ACA VA LA SECCION DE CSS DEL FOOTER */
 .footer {
   background: #0f172a;

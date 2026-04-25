@@ -1,6 +1,6 @@
 /* ACA VA LA SECCION DE CSS DE FUNCIONALIDADES */
-
 .features {
+  scroll-margin-top: 10px;
   padding: 80px 0;
   background: linear-gradient(to bottom, #eff6ff, #ffffff);
   font-family: Arial, sans-serif;
@@ -29,10 +29,11 @@
 }
 
 .features-header h2 {
-  font-size: 34px;
+  font-size: 36px;
   font-weight: 700;
   color: #111827;
   margin-bottom: 14px;
+  line-height: 1.2;
 }
 
 .features-header p {
@@ -74,6 +75,17 @@
   font-size: 15px;
   line-height: 1.7;
   color: #4b5563;
+}
+
+.feature-card ul {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+.feature-card li {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 6px;
 }
 
 @media (max-width: 900px) {
