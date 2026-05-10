@@ -1,802 +1,1059 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Lowcortisol</title>
-  <link rel="stylesheet" href="css/main.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lowcortisol</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body>
+  <body>
+    <!-- ===================== -->
+    <!-- HEADER -->
 
-  <!-- ===================== -->
-  <!-- HEADER -->
-  
-<header class="header">
-  <div class="header-container">
-    <a href="#home" class="header-logo">
-      <img src="assets/images/logo.png" alt="Logo LowCortisol">
-    </a>
+    <header class="header">
+      <div class="header-container">
+        <a href="#home" class="header-logo">
+          <img src="assets/images/logo.png" alt="Logo LowCortisol" />
+        </a>
 
-    <button class="menu-toggle" id="menu-toggle">
-      <img src="assets/icons/Hamburger button.png" alt="Menu">
-    </button>
+        <button class="menu-toggle" id="menu-toggle">
+          <img src="assets/icons/Hamburger button.png" alt="Menu" />
+        </button>
 
-    <nav class="header-nav" id="nav-menu">
-      <a href="#home" data-i18n="nav.home">Inicio</a>
-      <a href="#benefits" data-i18n="nav.benefits">Beneficio</a>
-      <a href="#features" data-i18n="nav.features">Funcionalidades</a>
-      <a href="#about" data-i18n="nav.about">Quienes Somos</a>
-      <a href="#planes" data-i18n="nav.plans">Planes</a>
-      <a href="#contact" data-i18n="nav.contact">Contacto</a>
+        <nav class="header-nav" id="nav-menu">
+          <a href="#home" data-i18n="nav.home">Inicio</a>
+          <a href="#benefits" data-i18n="nav.benefits">Beneficio</a>
+          <a href="#features" data-i18n="nav.features">Funcionalidades</a>
+          <a href="#about" data-i18n="nav.about">Quienes Somos</a>
+          <a href="#planes" data-i18n="nav.plans">Planes</a>
+          <a href="#contact" data-i18n="nav.contact">Contacto</a>
 
-      <div class="mobile-extra">
-        <div class="change-language">
-          <img src="assets/icons/Globe Global.png" alt="Icono cambio de idioma" class="lang-icon">
+          <div class="mobile-extra">
+            <div class="change-language">
+              <img
+                src="assets/icons/Globe Global.png"
+                alt="Icono cambio de idioma"
+                class="lang-icon"
+              />
+              <button class="lang-toggle">EN</button>
+            </div>
+
+            <a
+              href="https://lowcortisol-webapp.onrender.com"
+              class="header-login-button"
+              data-i18n="nav.login"
+            >
+              Iniciar Sesion
+            </a>
+          </div>
+        </nav>
+
+        <div class="change-language desktop-only">
+          <img
+            src="assets/icons/Globe Global.png"
+            alt="Icono cambio de idioma"
+            class="lang-icon"
+          />
           <button class="lang-toggle">EN</button>
         </div>
 
-        <a href="#" class="header-login-button" data-i18n="nav.login">Iniciar Sesion</a>
+        <a
+          href="https://lowcortisol-webapp.onrender.com"
+          class="header-login-button desktop-only"
+          data-i18n="nav.login"
+          >Iniciar Sesion</a
+        >
       </div>
-    </nav>
-
-    <div class="change-language desktop-only">
-      <img src="assets/icons/Globe Global.png" alt="Icono cambio de idioma" class="lang-icon">
-      <button class="lang-toggle">EN</button>
-    </div>
-    
-    <a href="#" class="header-login-button desktop-only" data-i18n="nav.login">Iniciar Sesion</a>
-  </div>
-</header>
-  <!-- ===================== -->
-  <!-- HOME -->
-  <!-- ===================== -->
-
- <section id="home" class="home">
-  <div class="home-container">
-    <div class="home-content">
-      <div class="home-text">
-        <h1 data-i18n="home.title">Low cortisol</h1>
-
-        <h2 data-i18n="home.subtitle">
-          Controla tus recursos,
-          <span>previene fugas</span>
-        </h2>
-
-        <p data-i18n="home.description">
-          Monitoreo en tiempo real de redes de agua y gas para hogares y
-          profesionales, que previene fugas, mejora la seguridad y reduce
-          costos mediante alertas inteligentes.
-        </p>
-
-        <div class="home-buttons">
-          <a href="#planes" class="home-button home-button-primary" data-i18n="home.primaryButton">Ver Planes</a>
-          <a href="#contact" class="home-button home-button-secondary" data-i18n="home.secondaryButton">Solicitar Demo</a>
-        </div>
-      </div>
-
-      <div class="home-image">
-        <img src="assets/images/inicio.png" alt="Técnico revisando instalación">
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!-- ===================== -->
-  <!-- BENEFITS -->
-  <!-- ===================== -->
-
-  <section id="benefits" class="benefits-section">
-  <div class="benefits-container">
-
-    <div class="benefits-header">
-      <span class="benefits-badge" data-i18n="benefits.badge">Beneficios</span>
-
-      <h2 data-i18n="benefits.title">
-        ¿Por qué elegir LowCortisol?
-      </h2>
-
-      <p data-i18n="benefits.description">
-        Tecnología IoT avanzada que transforma la gestión de recursos en tu hogar o empresa
-      </p>
-    </div>
-
-    <div class="benefits-grid">
-
-      <!-- CARD 1 -->
-      <article class="benefit-card">
-        <div class="benefit-icon benefit-orange">
-          <img src="assets/icons/Shield.jpg" alt="Seguridad"> 
-        </div>
-
-        <h3 data-i18n="benefits.card1.title">
-          Seguridad Mejorada
-        </h3>
-
-        <p data-i18n="benefits.card1.text">
-          Detecta fugas de gas y agua al instante con alertas automáticas.
-          Protege tu propiedad y a las personas con notificaciones en tiempo real.
-        </p>
-      </article>
-
-      <!-- CARD 2 -->
-      <article class="benefit-card">
-        <div class="benefit-icon benefit-green">
-          <img src="assets/icons/Ahorro.jpg" alt="Ahorro">
-        </div>
-
-        <h3 data-i18n="benefits.card2.title">
-          Ahorro Significativo
-        </h3>
-
-        <p data-i18n="benefits.card2.text">
-          Reduce hasta un 40% en costos operativos eliminando desperdicios.
-          Identifica patrones de consumo y optimiza el uso de recursos.
-        </p>
-      </article>
-
-      <!-- CARD 3 -->
-      <article class="benefit-card">
-        <div class="benefit-icon benefit-blue">
-          <img src="assets/icons/Monitoring.svg" alt="Monitoreo">
-        </div>
-
-        <h3 data-i18n="benefits.card3.title">
-          Monitoreo en Tiempo Real
-        </h3>
-
-        <p data-i18n="benefits.card3.text">
-          Visualiza el consumo de agua y gas desde cualquier lugar.
-          Dashboard intuitivo con gráficos y métricas actualizadas cada segundo.
-        </p>
-      </article>
-
-    </div>
-
-    <div class="benefits-dots">
-      <span class="dot active"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-
-  </div>
-</section>  
-  <!-- ===================== -->
-  <!-- FEATURES -->
-  <!-- ===================== -->
-
-<section id="features" class="features">
-  <div class="features-container">
-
-    <div class="features-header">
-      <span class="features-badge" data-i18n="features.badge">Funcionalidades</span>
-
-      <h2 data-i18n="features.title">
-        Funcionalidades diseñadas para un monitoreo inteligente
-      </h2>
-
-      <p data-i18n="features.description">
-        Nuestra plataforma te ayuda a supervisar el consumo, detectar fugas a tiempo
-        y optimizar el uso de agua y gas con información clara y alertas oportunas.
-      </p>
-    </div>
-
-    <div class="features-grid">
-
-      <!-- CARD 1 -->
-      <div class="feature-card">
-        <h3 data-i18n="features.card1.title">Monitoreo en tiempo real</h3>
-
-        <p data-i18n="features.card1.text">
-          Visualiza el consumo de agua y gas al instante desde una sola plataforma.
-        </p>
-
-        <ul>
-          <li data-i18n="features.card1.item1">Datos actualizados en segundos</li>
-          <li data-i18n="features.card1.item2">Visualización desde web y móvil</li>
-          <li data-i18n="features.card1.item3">Control centralizado de múltiples redes</li>
-        </ul>
-      </div>
-
-      <!-- CARD 2 -->
-      <div class="feature-card">
-        <h3 data-i18n="features.card2.title">Alertas inteligentes</h3>
-
-        <p data-i18n="features.card2.text">
-          Recibe notificaciones automáticas ante comportamientos inusuales.
-        </p>
-
-        <ul>
-          <li data-i18n="features.card2.item1">Alertas por email, SMS y app</li>
-          <li data-i18n="features.card2.item2">Detección de consumos anormales</li>
-          <li data-i18n="features.card2.item3">Configuración personalizada</li>
-        </ul>
-      </div>
-
-      <!-- CARD 3 -->
-      <div class="feature-card">
-        <h3 data-i18n="features.card3.title">Historial y reportes</h3>
-
-        <p data-i18n="features.card3.text">
-          Consulta datos históricos y analiza patrones.
-        </p>
-
-        <ul>
-          <li data-i18n="features.card3.item1">Reportes diarios, semanales y mensuales</li>
-          <li data-i18n="features.card3.item2">Gráficos claros e intuitivos</li>
-          <li data-i18n="features.card3.item3">Análisis de tendencias de consumo</li>
-        </ul>
-      </div>
-
-      <!-- CARD 4 -->
-      <div class="feature-card">
-        <h3 data-i18n="features.card4.title">Detección temprana de fugas</h3>
-
-        <p data-i18n="features.card4.text">
-          Identifica anomalías antes de que se conviertan en riesgos.
-        </p>
-
-        <ul>
-          <li data-i18n="features.card4.item1">Identificación automática de fugas</li>
-          <li data-i18n="features.card4.item2">Prevención de daños estructurales</li>
-          <li data-i18n="features.card4.item3">Reducción de pérdidas económicas</li>
-        </ul>
-      </div>
-
-      <!-- CARD 5 -->
-      <div class="feature-card">
-        <h3 data-i18n="features.card5.title">Panel intuitivo</h3>
-
-        <p data-i18n="features.card5.text">
-          Accede a información clara desde cualquier dispositivo.
-        </p>
-
-        <ul>
-          <li data-i18n="features.card5.item1">Interfaz simple y amigable</li>
-          <li data-i18n="features.card5.item2">Diseño responsive</li>
-          <li data-i18n="features.card5.item3">Acceso rápido a funciones clave</li>
-        </ul>
-      </div>
-
-      <!-- CARD 6 -->
-      <div class="feature-card">
-        <h3 data-i18n="features.card6.title">Optimización de costos</h3>
-
-        <p data-i18n="features.card6.text">
-          Reduce gastos operativos con un control eficiente.
-        </p>
-
-        <ul>
-          <li data-i18n="features.card6.item1">Reducción de consumo innecesario</li>
-          <li data-i18n="features.card6.item2">Prevención de fugas costosas</li>
-          <li data-i18n="features.card6.item3">Ahorro hasta 40% en recursos</li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
-  <!-- ===================== -->
-  <!-- ABOUT -->
-  <!-- ===================== -->
-
-<section id="about" class="about-section">
-  <div class="about-container">
-
-    <div class="about-header">
-      <span class="about-badge" data-i18n="about.badge">Quiénes Somos</span>
-      <h2 data-i18n="about.title">LowCortisol: Innovación en Monitoreo IoT</h2>
-      <p data-i18n="about.description">
-        Transformamos la gestión de recursos hídricos y energéticos con tecnología de
-        vanguardia</p>
-    </div>
-
-    <div class="about-grid">
-      <div class="about-card about-vision-card">
-        <div class="about-icon-container">
-          <img src="assets/icons/eye.svg" alt="visión">
-        </div>
-        <h3 data-i18n="about.vision.title">Nuestra Visión</h3>
-        <p data-i18n="about.vision.text">Convertirnos en el líder global de soluciones IoT para la gestión inteligente de recursos, empoderando a hogares y empresas con tecnología accesible que previene desperdicios, protege infraestructuras y contribuye a un futuro sostenible.</p>
-      </div>
-
-      <div class="about-card about-mission-card">
-        <div class="about-icon-container">
-          <img src="assets/icons/target.svg" alt="misión">
-        </div>
-        <h3 data-i18n="about.mission.title">Nuestra Misión</h3>
-        <p data-i18n="about.mission.text">Proporcionar sistemas de monitoreo IoT en tiempo real que detectan y previenen fugas de agua y gas, optimizando el consumo, reduciendo costos operativos y garantizando la seguridad mediante tecnología inteligente, accesible y escalable para todos nuestros clientes.</p>
-      </div>
-    </div>
-
-    <div class="about-info-box">
-      <h3 data-i18n="about.why.title">¿Por qué LowCortisol?</h3>
-      <p data-i18n="about.why.text">Nuestro nombre refleja nuestro compromiso: eliminar el estrés (cortisol) asociado a la gestión de recursos críticos. Con sensores inteligentes, alertas proactivas y control total desde tu dispositivo móvil, transformamos la ansiedad de posibles fallas en tranquilidad y eficiencia.</p>
-    </div>
-
-  </div>
-</section>
-
-  <!-- SOLUTIONS -->
- <section id="solutions" class="solutions">
-  <div id="Green-Bar" data-i18n="solutions.title">
-    Soluciones para Todos
-  </div>
-
-  <div id="Intro-Solutions">
-    <h2 data-i18n="solutions.subtitle">Adaptado a tus necesidades</h2>
-    <p data-i18n="solutions.description">
-      Ya sea que administres un hogas, un hotel o una ciudad entera, tenemos la solución perfecta
-    </p>
-  </div>
-
-  <div id="Main-Container-Solutions">
-
-    <!-- RESIDENCIAL -->
-    <div id="Usuarios-Residenciales">
-      <div class="Container-Usuarios-Solutions">
-
-        <div class="LeftPart-Usuarios">
-          <img src="assets/images/FT_SecccionResidencial.png" id="IMG-Residenciales" alt="Usuarios Residenciales">
-        </div>
-
-        <div class="RightPart-Usuarios">
-
-          <div class="ICON_USUARIOS">
-            <img src="assets/images/ICON-Residenciales.png" class="ICON-Usuarios-IMG" alt="Icono Usuarios Residenciales">
+    </header>
+    <!-- ===================== -->
+    <!-- HOME -->
+    <!-- ===================== -->
+
+    <section id="home" class="home">
+      <div class="home-container">
+        <div class="home-content">
+          <div class="home-text">
+            <h1 data-i18n="home.title">Low cortisol</h1>
+
+            <h2 data-i18n="home.subtitle">
+              Controla tus recursos,
+              <span>previene fugas</span>
+            </h2>
+
+            <p data-i18n="home.description">
+              Monitoreo en tiempo real de redes de agua y gas para hogares y
+              profesionales, que previene fugas, mejora la seguridad y reduce
+              costos mediante alertas inteligentes.
+            </p>
+
+            <div class="home-buttons">
+              <a
+                href="#planes"
+                class="home-button home-button-primary"
+                data-i18n="home.primaryButton"
+                >Ver Planes</a
+              >
+              <a
+                href="#contact"
+                class="home-button home-button-secondary"
+                data-i18n="home.secondaryButton"
+                >Solicitar Demo</a
+              >
+            </div>
           </div>
 
-          <div id="Text-RightPart">
-            <h2 data-i18n="solutions.residential.title">Usuarios Residenciales</h2>
+          <div class="home-image">
+            <img
+              src="assets/images/inicio.png"
+              alt="Técnico revisando instalación"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="subtitle" data-i18n="solutions.residential.subtitle">
-              Protege tu hogar y ahorra desde tu celular.
+    <!-- ===================== -->
+    <!-- BENEFITS -->
+    <!-- ===================== -->
+
+    <section id="benefits" class="benefits-section">
+      <div class="benefits-container">
+        <div class="benefits-header">
+          <span class="benefits-badge" data-i18n="benefits.badge"
+            >Beneficios</span
+          >
+
+          <h2 data-i18n="benefits.title">¿Por qué elegir LowCortisol?</h2>
+
+          <p data-i18n="benefits.description">
+            Tecnología IoT avanzada que transforma la gestión de recursos en tu
+            hogar o empresa
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          <!-- CARD 1 -->
+          <article class="benefit-card">
+            <div class="benefit-icon benefit-orange">
+              <img src="assets/icons/Shield.jpg" alt="Seguridad" />
             </div>
 
-            <p data-i18n="solutions.residential.text">
-              Solución diseñada para personas con bajo o medio nivel técnico que buscan prevenir fugas, reducir costos y controlar su hogar de manera simple e intuitiva.
+            <h3 data-i18n="benefits.card1.title">Seguridad Mejorada</h3>
+
+            <p data-i18n="benefits.card1.text">
+              Detecta fugas de gas y agua al instante con alertas automáticas.
+              Protege tu propiedad y a las personas con notificaciones en tiempo
+              real.
+            </p>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="benefit-card">
+            <div class="benefit-icon benefit-green">
+              <img src="assets/icons/Ahorro.jpg" alt="Ahorro" />
+            </div>
+
+            <h3 data-i18n="benefits.card2.title">Ahorro Significativo</h3>
+
+            <p data-i18n="benefits.card2.text">
+              Reduce hasta un 40% en costos operativos eliminando desperdicios.
+              Identifica patrones de consumo y optimiza el uso de recursos.
+            </p>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="benefit-card">
+            <div class="benefit-icon benefit-blue">
+              <img src="assets/icons/Monitoring.svg" alt="Monitoreo" />
+            </div>
+
+            <h3 data-i18n="benefits.card3.title">Monitoreo en Tiempo Real</h3>
+
+            <p data-i18n="benefits.card3.text">
+              Visualiza el consumo de agua y gas desde cualquier lugar.
+              Dashboard intuitivo con gráficos y métricas actualizadas cada
+              segundo.
+            </p>
+          </article>
+        </div>
+
+        <div class="benefits-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== -->
+    <!-- FEATURES -->
+    <!-- ===================== -->
+
+    <section id="features" class="features">
+      <div class="features-container">
+        <div class="features-header">
+          <span class="features-badge" data-i18n="features.badge"
+            >Funcionalidades</span
+          >
+
+          <h2 data-i18n="features.title">
+            Funcionalidades diseñadas para un monitoreo inteligente
+          </h2>
+
+          <p data-i18n="features.description">
+            Nuestra plataforma te ayuda a supervisar el consumo, detectar fugas
+            a tiempo y optimizar el uso de agua y gas con información clara y
+            alertas oportunas.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- CARD 1 -->
+          <div class="feature-card">
+            <h3 data-i18n="features.card1.title">Monitoreo en tiempo real</h3>
+
+            <p data-i18n="features.card1.text">
+              Visualiza el consumo de agua y gas al instante desde una sola
+              plataforma.
             </p>
 
             <ul>
-              <li data-i18n="solutions.residential.item1">Instalación rápida y sencilla, sin conocimientos técnicos</li>
-              <li data-i18n="solutions.residential.item2">Control total desde tu smartphone</li>
-              <li data-i18n="solutions.residential.item3">Alertas automáticas de seguridad 24/7</li>
-              <li data-i18n="solutions.residential.item4">Reducción de costos hasta 30-40%</li>
-              <li data-i18n="solutions.residential.item5">Interfaz intuitiva y fácil de usar</li>
+              <li data-i18n="features.card1.item1">
+                Datos actualizados en segundos
+              </li>
+              <li data-i18n="features.card1.item2">
+                Visualización desde web y móvil
+              </li>
+              <li data-i18n="features.card1.item3">
+                Control centralizado de múltiples redes
+              </li>
             </ul>
           </div>
 
-          <div id="Button-Ref">
-            <a href="#contacto" style="text-decoration: none;">
-              <div class="Solicita-Informacion" data-i18n="solutions.button">
-                Solicita Información
-              </div>
-            </a>
-          </div>
+          <!-- CARD 2 -->
+          <div class="feature-card">
+            <h3 data-i18n="features.card2.title">Alertas inteligentes</h3>
 
-        </div>
-      </div>
-    </div>
-
-    <!-- INFRAESTRUCTURA -->
-    <div id="Usuarios-Comerciales">
-      <div class="Container-Usuarios-Solutions">
-
-        <div class="LeftPart-Usuarios">
-          <img src="assets/images/FT_SeccionInfraestructura.png" id="IMG-Comerciales" alt="Usuarios Comerciales">
-        </div>
-
-        <div class="RightPart-Usuarios">
-
-          <div class="ICON_USUARIOS">
-            <img src="assets/images/ICON-Infraestructura.png" class="ICON-Usuarios-IMG" alt="Icono Usuarios Comerciales">
-          </div>
-
-          <div id="Text-RightPart">
-            <h2 data-i18n="solutions.business.title">Profesionales de Infraestructura</h2>
-
-            <div class="subtitle" data-i18n="solutions.business.subtitle">
-              Gestión operativa centralizada y eficiente
-            </div>
-
-            <p data-i18n="solutions.business.text">
-              Para administradores, jefes de mantenimiento y gestores que requieren monitoreo centralizado, prevención de fallas y control eficiente de múltiples instalaciones (hoteles, municipalidades, edificios, industrias).
+            <p data-i18n="features.card2.text">
+              Recibe notificaciones automáticas ante comportamientos inusuales.
             </p>
 
             <ul>
-              <li data-i18n="solutions.business.item1">Monitoreo centralizado de múltiples instalaciones</li>
-              <li data-i18n="solutions.business.item2">Dashboard profesional con métricas avanzadas</li>
-              <li data-i18n="solutions.business.item3">Prevención proactiva de fallas y fugas</li>
-              <li data-i18n="solutions.business.item4">Reportes automáticos y análisis predictivo</li>
-              <li data-i18n="solutions.business.item5">Gestión multi-sede y multi-usuario</li>
+              <li data-i18n="features.card2.item1">
+                Alertas por email, SMS y app
+              </li>
+              <li data-i18n="features.card2.item2">
+                Detección de consumos anormales
+              </li>
+              <li data-i18n="features.card2.item3">
+                Configuración personalizada
+              </li>
             </ul>
           </div>
 
-          <div id="Button-Ref">
-            <a href="#contacto" style="text-decoration: none;">
-              <div class="Solicita-Informacion" data-i18n="solutions.button">
-                Solicita Información
+          <!-- CARD 3 -->
+          <div class="feature-card">
+            <h3 data-i18n="features.card3.title">Historial y reportes</h3>
+
+            <p data-i18n="features.card3.text">
+              Consulta datos históricos y analiza patrones.
+            </p>
+
+            <ul>
+              <li data-i18n="features.card3.item1">
+                Reportes diarios, semanales y mensuales
+              </li>
+              <li data-i18n="features.card3.item2">
+                Gráficos claros e intuitivos
+              </li>
+              <li data-i18n="features.card3.item3">
+                Análisis de tendencias de consumo
+              </li>
+            </ul>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="feature-card">
+            <h3 data-i18n="features.card4.title">
+              Detección temprana de fugas
+            </h3>
+
+            <p data-i18n="features.card4.text">
+              Identifica anomalías antes de que se conviertan en riesgos.
+            </p>
+
+            <ul>
+              <li data-i18n="features.card4.item1">
+                Identificación automática de fugas
+              </li>
+              <li data-i18n="features.card4.item2">
+                Prevención de daños estructurales
+              </li>
+              <li data-i18n="features.card4.item3">
+                Reducción de pérdidas económicas
+              </li>
+            </ul>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="feature-card">
+            <h3 data-i18n="features.card5.title">Panel intuitivo</h3>
+
+            <p data-i18n="features.card5.text">
+              Accede a información clara desde cualquier dispositivo.
+            </p>
+
+            <ul>
+              <li data-i18n="features.card5.item1">
+                Interfaz simple y amigable
+              </li>
+              <li data-i18n="features.card5.item2">Diseño responsive</li>
+              <li data-i18n="features.card5.item3">
+                Acceso rápido a funciones clave
+              </li>
+            </ul>
+          </div>
+
+          <!-- CARD 6 -->
+          <div class="feature-card">
+            <h3 data-i18n="features.card6.title">Optimización de costos</h3>
+
+            <p data-i18n="features.card6.text">
+              Reduce gastos operativos con un control eficiente.
+            </p>
+
+            <ul>
+              <li data-i18n="features.card6.item1">
+                Reducción de consumo innecesario
+              </li>
+              <li data-i18n="features.card6.item2">
+                Prevención de fugas costosas
+              </li>
+              <li data-i18n="features.card6.item3">
+                Ahorro hasta 40% en recursos
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- ABOUT -->
+    <!-- ===================== -->
+
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <div class="about-header">
+          <span class="about-badge" data-i18n="about.badge">Quiénes Somos</span>
+          <h2 data-i18n="about.title">
+            LowCortisol: Innovación en Monitoreo IoT
+          </h2>
+          <p data-i18n="about.description">
+            Transformamos la gestión de recursos hídricos y energéticos con
+            tecnología de vanguardia
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card about-vision-card">
+            <div class="about-icon-container">
+              <img src="assets/icons/eye.svg" alt="visión" />
+            </div>
+            <h3 data-i18n="about.vision.title">Nuestra Visión</h3>
+            <p data-i18n="about.vision.text">
+              Convertirnos en el líder global de soluciones IoT para la gestión
+              inteligente de recursos, empoderando a hogares y empresas con
+              tecnología accesible que previene desperdicios, protege
+              infraestructuras y contribuye a un futuro sostenible.
+            </p>
+          </div>
+
+          <div class="about-card about-mission-card">
+            <div class="about-icon-container">
+              <img src="assets/icons/target.svg" alt="misión" />
+            </div>
+            <h3 data-i18n="about.mission.title">Nuestra Misión</h3>
+            <p data-i18n="about.mission.text">
+              Proporcionar sistemas de monitoreo IoT en tiempo real que detectan
+              y previenen fugas de agua y gas, optimizando el consumo,
+              reduciendo costos operativos y garantizando la seguridad mediante
+              tecnología inteligente, accesible y escalable para todos nuestros
+              clientes.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-info-box">
+          <h3 data-i18n="about.why.title">¿Por qué LowCortisol?</h3>
+          <p data-i18n="about.why.text">
+            Nuestro nombre refleja nuestro compromiso: eliminar el estrés
+            (cortisol) asociado a la gestión de recursos críticos. Con sensores
+            inteligentes, alertas proactivas y control total desde tu
+            dispositivo móvil, transformamos la ansiedad de posibles fallas en
+            tranquilidad y eficiencia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTIONS -->
+    <section id="solutions" class="solutions">
+      <div id="Green-Bar" data-i18n="solutions.title">
+        Soluciones para Todos
+      </div>
+
+      <div id="Intro-Solutions">
+        <h2 data-i18n="solutions.subtitle">Adaptado a tus necesidades</h2>
+        <p data-i18n="solutions.description">
+          Ya sea que administres un hogas, un hotel o una ciudad entera, tenemos
+          la solución perfecta
+        </p>
+      </div>
+
+      <div id="Main-Container-Solutions">
+        <!-- RESIDENCIAL -->
+        <div id="Usuarios-Residenciales">
+          <div class="Container-Usuarios-Solutions">
+            <div class="LeftPart-Usuarios">
+              <img
+                src="assets/images/FT_SecccionResidencial.png"
+                id="IMG-Residenciales"
+                alt="Usuarios Residenciales"
+              />
+            </div>
+
+            <div class="RightPart-Usuarios">
+              <div class="ICON_USUARIOS">
+                <img
+                  src="assets/images/ICON-Residenciales.png"
+                  class="ICON-Usuarios-IMG"
+                  alt="Icono Usuarios Residenciales"
+                />
               </div>
-            </a>
-          </div>
 
-        </div>
-      </div>
-    </div>
+              <div id="Text-RightPart">
+                <h2 data-i18n="solutions.residential.title">
+                  Usuarios Residenciales
+                </h2>
 
-  </div>
-</section>
+                <div
+                  class="subtitle"
+                  data-i18n="solutions.residential.subtitle"
+                >
+                  Protege tu hogar y ahorra desde tu celular.
+                </div>
 
+                <p data-i18n="solutions.residential.text">
+                  Solución diseñada para personas con bajo o medio nivel técnico
+                  que buscan prevenir fugas, reducir costos y controlar su hogar
+                  de manera simple e intuitiva.
+                </p>
 
-  <!-- ===================== -->
-  <!-- PLANS -->
-  <!-- ===================== -->
+                <ul>
+                  <li data-i18n="solutions.residential.item1">
+                    Instalación rápida y sencilla, sin conocimientos técnicos
+                  </li>
+                  <li data-i18n="solutions.residential.item2">
+                    Control total desde tu smartphone
+                  </li>
+                  <li data-i18n="solutions.residential.item3">
+                    Alertas automáticas de seguridad 24/7
+                  </li>
+                  <li data-i18n="solutions.residential.item4">
+                    Reducción de costos hasta 30-40%
+                  </li>
+                  <li data-i18n="solutions.residential.item5">
+                    Interfaz intuitiva y fácil de usar
+                  </li>
+                </ul>
+              </div>
 
-<section class="plans-section" id="planes">
-  <div class="plans-container">
-    <div class="plans-header">
-      <span class="plans-badge" data-i18n="plans.badge">Planes y Precios · Suscripción Mensual</span>
-
-      <h2 data-i18n="plans.title">Elige el plan perfecto para ti</h2>
-
-      <p data-i18n="plans.description">
-        Servicio por suscripción con facturación mensual. Sin compromisos a largo plazo.
-        Cancela cuando quieras.
-      </p>
-    </div>
-
-    <!-- RESIDENCIAL -->
-    <div class="plans-category">
-      <div class="plans-category-header">
-        <div class="plans-category-icon">
-          <img src="assets/icons/home.svg" alt="Icono planes residenciales">
-        </div>
-        <div>
-          <h3 data-i18n="plans.residential.title">Planes Residenciales</h3>
-          <p data-i18n="plans.residential.subtitle">Para hogares y familias</p>
-        </div>
-      </div>
-
-      <div class="plans-slider" id="slider-residencial">
-        <div class="plans-grid">
-
-          <!-- BASICO -->
-          <article class="plan-card">
-            <h4 data-i18n="plans.basic.title">Básico</h4>
-            <span class="plan-subtitle" data-i18n="plans.basic.subtitle">
-              Ideal para departamentos y casas pequeñas
-            </span>
-
-            <div class="plan-price">S/. 29<span data-i18n="plans.month">/mes</span></div>
-
-            <ul class="plan-features">
-              <li data-i18n="plans.basic.item1">Monitoreo de 1 red (agua o gas)</li>
-              <li data-i18n="plans.basic.item2">Alertas básicas por email</li>
-              <li data-i18n="plans.basic.item3">App móvil intuitiva</li>
-              <li data-i18n="plans.basic.item4">Histórico de 30 días</li>
-              <li data-i18n="plans.basic.item5">1 sensor incluido</li>
-              <li data-i18n="plans.basic.item6">Sin conocimientos técnicos requeridos</li>
-            </ul>
-
-            <button class="plan-button" type="button" data-i18n="plans.buy">Comprar</button>
-          </article>
-
-          <!-- FAMILIAR -->
-          <article class="plan-card plan-card-popular plan-card-popular-blue">
-            <span class="plan-popular-badge" data-i18n="plans.popular">Más Popular</span>
-
-            <h4 data-i18n="plans.family.title">Familiar</h4>
-
-            <span class="plan-subtitle" data-i18n="plans.family.subtitle">
-              Perfecto para hogares completos
-            </span>
-
-            <div class="plan-price">S/. 59<span data-i18n="plans.month">/mes</span></div>
-
-            <ul class="plan-features">
-              <li data-i18n="plans.family.item1">Monitoreo de hasta 3 redes</li>
-              <li data-i18n="plans.family.item2">Alertas avanzadas (email + SMS + push)</li>
-              <li data-i18n="plans.family.item3">Control remoto de válvulas desde el celular</li>
-              <li data-i18n="plans.family.item4">Histórico de 12 meses</li>
-              <li data-i18n="plans.family.item5">Hasta 3 sensores incluidos</li>
-              <li data-i18n="plans.family.item6">Análisis de consumo y ahorro</li>
-              <li data-i18n="plans.family.item7">Instalación guiada paso a paso</li>
-            </ul>
-
-            <button class="plan-button plan-button-primary" type="button" data-i18n="plans.buy">
-              Comprar
-            </button>
-          </article>
-
-          <!-- PREMIUM -->
-          <article class="plan-card">
-            <h4 data-i18n="plans.premium.title">Premium</h4>
-
-            <span class="plan-subtitle" data-i18n="plans.premium.subtitle">
-              Para casas grandes y múltiples propiedades
-            </span>
-
-            <div class="plan-price">S/. 99<span data-i18n="plans.month" >/mes</span></div>
-
-            <ul class="plan-features">
-              <li data-i18n="plans.premium.item1">Monitoreo ilimitado de redes</li>
-              <li data-i18n="plans.premium.item2">Alertas prioritarias multicanal</li>
-              <li data-i18n="plans.premium.item3">Control remoto avanzado</li>
-              <li data-i18n="plans.premium.item4">Histórico ilimitado</li>
-              <li data-i18n="plans.premium.item5">Hasta 5 sensores incluidos</li>
-              <li data-i18n="plans.premium.item6">IA predictiva para prevención de fugas</li>
-              <li data-i18n="plans.premium.item7">Ahorro garantizado hasta 40%</li>
-              <li data-i18n="plans.premium.item8">Soporte premium 24/7</li>
-            </ul>
-
-            <button class="plan-button" type="button" data-i18n="plans.buy">Comprar</button>
-          </article>
-
-        </div>
-      </div>
-
-      <div class="slider-dots" data-slider="slider-residencial">
-        <span class="dot active"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
-    </div>
-
-    <!-- EMPRESARIAL -->
-    <div class="plans-category">
-      <div class="plans-category-header">
-        <div class="plans-category-icon plans-category-icon-purple">
-          <img src="assets/icons/building.svg" alt="Icono planes empresariales">
-        </div>
-        <div>
-          <h3 data-i18n="plans.business.title">Planes Empresariales</h3>
-          <p data-i18n="plans.business.subtitle">Para empresas, hoteles y municipalidades</p>
-        </div>
-      </div>
-
-      <div class="plans-slider" id="slider-empresarial">
-        <div class="plans-grid">
-
-          <!-- EMPRESARIAL -->
-          <article class="plan-card">
-            <h4 data-i18n="plans.enterprise1.title">Empresarial</h4>
-
-            <span class="plan-subtitle" data-i18n="plans.enterprise1.subtitle">
-              Para edificios y pequeñas empresas
-            </span>
-
-            <div class="plan-price">S/. 299<span data-i18n="plans.month" >/mes</span></div>
-
-            <ul class="plan-features">
-              <li data-i18n="plans.enterprise1.item1">Hasta 20 puntos de monitoreo</li>
-              <li data-i18n="plans.enterprise1.item2">Dashboard centralizado profesional</li>
-              <li data-i18n="plans.enterprise1.item3">Múltiples usuarios (hasta 5)</li>
-              <li data-i18n="plans.enterprise1.item4">Reportes automáticos y análisis</li>
-              <li data-i18n="plans.enterprise1.item5">API para integración con sistemas</li>
-              <li data-i18n="plans.enterprise1.item6">Prevención proactiva de fallas</li>
-              <li data-i18n="plans.enterprise1.item7">Soporte técnico dedicado</li>
-            </ul>
-
-            <button class="plan-button" data-i18n="plans.buy">Comprar</button>
-          </article>
-
-          <!-- CORPORATIVO -->
-          <article class="plan-card plan-card-popular plan-card-popular-purple">
-            <span class="plan-popular-badge plan-popular-badge-purple" data-i18n="plans.popular">
-              Más Popular
-            </span>
-
-            <h4 data-i18n="plans.enterprise2.title">Corporativo</h4>
-
-            <span class="plan-subtitle" data-i18n="plans.enterprise2.subtitle">
-              Para hoteles, municipios e industrias
-            </span>
-
-            <div class="plan-price">S/. 799<span data-i18n="plans.month" >/mes</span></div>
-
-            <ul class="plan-features">
-              <li data-i18n="plans.enterprise2.item1">Monitoreo ilimitado</li>
-              <li data-i18n="plans.enterprise2.item2">Gestión multi-sede centralizada</li>
-              <li data-i18n="plans.enterprise2.item3">Usuarios ilimitados con roles</li>
-              <li data-i18n="plans.enterprise2.item4">Alertas personalizadas por rol y equipo</li>
-              <li data-i18n="plans.enterprise2.item5">Integración con sistemas existentes</li>
-              <li data-i18n="plans.enterprise2.item6">IA y análisis predictivo avanzado</li>
-              <li data-i18n="plans.enterprise2.item7">Reportes ejecutivos automáticos</li>
-              <li data-i18n="plans.enterprise2.item8">Ingeniero de soporte asignado 24/7</li>
-            </ul>
-
-            <button class="plan-button plan-button-primary" data-i18n="plans.buy">Comprar</button>
-          </article>
-
-          <!-- ENTERPRISE -->
-          <article class="plan-card">
-            <h4 data-i18n="plans.enterprise3.title">Enterprise</h4>
-
-            <span class="plan-subtitle" data-i18n="plans.enterprise3.subtitle">
-              Soluciones a medida para grandes infraestructuras
-            </span>
-
-            <div class="plan-price" data-i18n="plans.enterprise3.price">Personalizado</div>
-
-            <ul class="plan-features">
-              <li data-i18n="plans.enterprise3.item1">Todo lo incluido en Corporativo</li>
-              <li data-i18n="plans.enterprise3.item2">Infraestructura dedicada y aislada</li>
-              <li data-i18n="plans.enterprise3.item3">Desarrollo de funcionalidades personalizadas</li>
-              <li data-i18n="plans.enterprise3.item4">Consultoría técnica especializada</li>
-              <li data-i18n="plans.enterprise3.item5">Cumplimiento normativo garantizado</li>
-              <li data-i18n="plans.enterprise3.item6">Control operativo multi-instalación</li>
-            </ul>
-
-            <button class="plan-button" data-i18n="plans.buy">Comprar</button>
-          </article>
-
-        </div>
-      </div>
-
-      <div class="slider-dots" data-slider="slider-empresarial">
-        <span class="dot active"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!-- ===================== -->
-  <!-- CONTACT -->
-  <!-- ===================== -->
-<section id="contact" class="contact">
-  <div class="contact-container">
-    <div class="contact-header">
-      <span class="contact-badge" data-i18n="contact.badge">Contacto</span>
-
-      <h2 data-i18n="contact.title">
-        Comienza a monitorear tus recursos hoy
-      </h2>
-
-      <p data-i18n="contact.description">
-        Agenda una demo personalizada y descubre cómo LowCortisol puede ayudarte
-        a prevenir fugas, ahorrar costos y mejorar la seguridad
-      </p>
-    </div>
-
-    <div class="contact-content">
-      <div class="contact-info">
-
-        <h3 data-i18n="contact.questions">¿Tienes preguntas?</h3>
-
-        <p data-i18n="contact.text">
-          Contáctanos y descubre cómo LowCortisol puede transformar la gestión
-          de tus recursos.
-        </p>
-
-        <!-- EMAIL -->
-        <div class="contact-card">
-          <div class="contact-card-icon contact-card-icon-blue">
-            <img src="assets/icons/Email.svg" alt="Icono email">
-          </div>
-          <div class="contact-card-text">
-            <h4 data-i18n="contact.email">Email</h4>
-            <p>contacto@lowcortisol.io</p>
-            <p>ventas@lowcortisol.io</p>
+              <div id="Button-Ref">
+                <a href="#contacto" style="text-decoration: none">
+                  <div
+                    class="Solicita-Informacion"
+                    data-i18n="solutions.button"
+                  >
+                    Solicita Información
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- TELEFONO -->
-        <div class="contact-card">
-          <div class="contact-card-icon contact-card-icon-green">
-            <img src="assets/icons/Phone.svg" alt="Icono teléfono">
-          </div>
-          <div class="contact-card-text">
-            <h4 data-i18n="contact.phone">Teléfono</h4>
-            <p>+51 978513120</p>
-            <p data-i18n="contact.schedule">Lun - Vie: 9:00 - 18:00</p>
+        <!-- INFRAESTRUCTURA -->
+        <div id="Usuarios-Comerciales">
+          <div class="Container-Usuarios-Solutions">
+            <div class="LeftPart-Usuarios">
+              <img
+                src="assets/images/FT_SeccionInfraestructura.png"
+                id="IMG-Comerciales"
+                alt="Usuarios Comerciales"
+              />
+            </div>
+
+            <div class="RightPart-Usuarios">
+              <div class="ICON_USUARIOS">
+                <img
+                  src="assets/images/ICON-Infraestructura.png"
+                  class="ICON-Usuarios-IMG"
+                  alt="Icono Usuarios Comerciales"
+                />
+              </div>
+
+              <div id="Text-RightPart">
+                <h2 data-i18n="solutions.business.title">
+                  Profesionales de Infraestructura
+                </h2>
+
+                <div class="subtitle" data-i18n="solutions.business.subtitle">
+                  Gestión operativa centralizada y eficiente
+                </div>
+
+                <p data-i18n="solutions.business.text">
+                  Para administradores, jefes de mantenimiento y gestores que
+                  requieren monitoreo centralizado, prevención de fallas y
+                  control eficiente de múltiples instalaciones (hoteles,
+                  municipalidades, edificios, industrias).
+                </p>
+
+                <ul>
+                  <li data-i18n="solutions.business.item1">
+                    Monitoreo centralizado de múltiples instalaciones
+                  </li>
+                  <li data-i18n="solutions.business.item2">
+                    Dashboard profesional con métricas avanzadas
+                  </li>
+                  <li data-i18n="solutions.business.item3">
+                    Prevención proactiva de fallas y fugas
+                  </li>
+                  <li data-i18n="solutions.business.item4">
+                    Reportes automáticos y análisis predictivo
+                  </li>
+                  <li data-i18n="solutions.business.item5">
+                    Gestión multi-sede y multi-usuario
+                  </li>
+                </ul>
+              </div>
+
+              <div id="Button-Ref">
+                <a href="#contacto" style="text-decoration: none">
+                  <div
+                    class="Solicita-Informacion"
+                    data-i18n="solutions.button"
+                  >
+                    Solicita Información
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-
-        <!-- OFICINA -->
-        <div class="contact-card">
-          <div class="contact-card-icon contact-card-icon-purple">
-            <img src="assets/icons/building.svg" alt="Icono oficina">
-          </div>
-          <div class="contact-card-text">
-            <h4 data-i18n="contact.office">Oficina</h4>
-            <p>Av. Javier Prado 1234, Piso 5</p>
-            <p>Santiago de Surco, Lima</p>
-          </div>
-        </div>
-
       </div>
+    </section>
 
-      <div class="contact-form-wrapper">
-        <form class="contact-form">
+    <!-- ===================== -->
+    <!-- PLANS -->
+    <!-- ===================== -->
 
-          <label for="fullName" data-i18n="form.name">Nombre Completo *</label>
-          <input 
-            type="text" 
-            id="fullName" 
-            name="fullName" 
-            placeholder="Escribe tu nombre"
-            data-i18n-placeholder="form.namePlaceholder"
+    <section class="plans-section" id="planes">
+      <div class="plans-container">
+        <div class="plans-header">
+          <span class="plans-badge" data-i18n="plans.badge"
+            >Planes y Precios · Suscripción Mensual</span
           >
 
-          <label for="email" data-i18n="form.email">Email *</label>
-          <input 
-            type="email" 
-            id="email" 
-            name="email" 
-            placeholder="ejemplo@gmail.com"
-            data-i18n-placeholder="form.emailPlaceholder"
-          >
+          <h2 data-i18n="plans.title">Elige el plan perfecto para ti</h2>
 
-          <label for="clientType" data-i18n="form.clientType">Tipo de cliente *</label>
-          <select id="clientType" name="clientType" required>
-            <option value="" disabled selected data-i18n="form.selectOption">
-              Selecciona una opción
-            </option>
-            <option value="residencial" data-i18n="form.residential">
-              Personas Residencial
-            </option>
-            <option value="infraestructura" data-i18n="form.infrastructure">
-              Profesionales de Infraestructura
-            </option>
-          </select>
+          <p data-i18n="plans.description">
+            Servicio por suscripción con facturación mensual. Sin compromisos a
+            largo plazo. Cancela cuando quieras.
+          </p>
+        </div>
 
-          <label for="message" data-i18n="form.message">Mensaje *</label>
-          <textarea 
-            id="message" 
-            name="message" 
-            placeholder="Cuéntanos más"
-            data-i18n-placeholder="form.messagePlaceholder"
-          ></textarea>
+        <!-- RESIDENCIAL -->
+        <div class="plans-category">
+          <div class="plans-category-header">
+            <div class="plans-category-icon">
+              <img
+                src="assets/icons/home.svg"
+                alt="Icono planes residenciales"
+              />
+            </div>
+            <div>
+              <h3 data-i18n="plans.residential.title">Planes Residenciales</h3>
+              <p data-i18n="plans.residential.subtitle">
+                Para hogares y familias
+              </p>
+            </div>
+          </div>
 
-          <button type="submit" class="contact-button" data-i18n="form.submit">
-            ENVIAR MENSAJE
-          </button>
+          <div class="plans-slider" id="slider-residencial">
+            <div class="plans-grid">
+              <!-- BASICO -->
+              <article class="plan-card">
+                <h4 data-i18n="plans.basic.title">Básico</h4>
+                <span class="plan-subtitle" data-i18n="plans.basic.subtitle">
+                  Ideal para departamentos y casas pequeñas
+                </span>
 
-        </form>
+                <div class="plan-price">
+                  S/. 29<span data-i18n="plans.month">/mes</span>
+                </div>
+
+                <ul class="plan-features">
+                  <li data-i18n="plans.basic.item1">
+                    Monitoreo de 1 red (agua o gas)
+                  </li>
+                  <li data-i18n="plans.basic.item2">
+                    Alertas básicas por email
+                  </li>
+                  <li data-i18n="plans.basic.item3">App móvil intuitiva</li>
+                  <li data-i18n="plans.basic.item4">Histórico de 30 días</li>
+                  <li data-i18n="plans.basic.item5">1 sensor incluido</li>
+                  <li data-i18n="plans.basic.item6">
+                    Sin conocimientos técnicos requeridos
+                  </li>
+                </ul>
+
+                <button class="plan-button" type="button" data-i18n="plans.buy">
+                  Comprar
+                </button>
+              </article>
+
+              <!-- FAMILIAR -->
+              <article
+                class="plan-card plan-card-popular plan-card-popular-blue"
+              >
+                <span class="plan-popular-badge" data-i18n="plans.popular"
+                  >Más Popular</span
+                >
+
+                <h4 data-i18n="plans.family.title">Familiar</h4>
+
+                <span class="plan-subtitle" data-i18n="plans.family.subtitle">
+                  Perfecto para hogares completos
+                </span>
+
+                <div class="plan-price">
+                  S/. 59<span data-i18n="plans.month">/mes</span>
+                </div>
+
+                <ul class="plan-features">
+                  <li data-i18n="plans.family.item1">
+                    Monitoreo de hasta 3 redes
+                  </li>
+                  <li data-i18n="plans.family.item2">
+                    Alertas avanzadas (email + SMS + push)
+                  </li>
+                  <li data-i18n="plans.family.item3">
+                    Control remoto de válvulas desde el celular
+                  </li>
+                  <li data-i18n="plans.family.item4">Histórico de 12 meses</li>
+                  <li data-i18n="plans.family.item5">
+                    Hasta 3 sensores incluidos
+                  </li>
+                  <li data-i18n="plans.family.item6">
+                    Análisis de consumo y ahorro
+                  </li>
+                  <li data-i18n="plans.family.item7">
+                    Instalación guiada paso a paso
+                  </li>
+                </ul>
+
+                <button
+                  class="plan-button plan-button-primary"
+                  type="button"
+                  data-i18n="plans.buy"
+                >
+                  Comprar
+                </button>
+              </article>
+
+              <!-- PREMIUM -->
+              <article class="plan-card">
+                <h4 data-i18n="plans.premium.title">Premium</h4>
+
+                <span class="plan-subtitle" data-i18n="plans.premium.subtitle">
+                  Para casas grandes y múltiples propiedades
+                </span>
+
+                <div class="plan-price">
+                  S/. 99<span data-i18n="plans.month">/mes</span>
+                </div>
+
+                <ul class="plan-features">
+                  <li data-i18n="plans.premium.item1">
+                    Monitoreo ilimitado de redes
+                  </li>
+                  <li data-i18n="plans.premium.item2">
+                    Alertas prioritarias multicanal
+                  </li>
+                  <li data-i18n="plans.premium.item3">
+                    Control remoto avanzado
+                  </li>
+                  <li data-i18n="plans.premium.item4">Histórico ilimitado</li>
+                  <li data-i18n="plans.premium.item5">
+                    Hasta 5 sensores incluidos
+                  </li>
+                  <li data-i18n="plans.premium.item6">
+                    IA predictiva para prevención de fugas
+                  </li>
+                  <li data-i18n="plans.premium.item7">
+                    Ahorro garantizado hasta 40%
+                  </li>
+                  <li data-i18n="plans.premium.item8">Soporte premium 24/7</li>
+                </ul>
+
+                <button class="plan-button" type="button" data-i18n="plans.buy">
+                  Comprar
+                </button>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-dots" data-slider="slider-residencial">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <!-- EMPRESARIAL -->
+        <div class="plans-category">
+          <div class="plans-category-header">
+            <div class="plans-category-icon plans-category-icon-purple">
+              <img
+                src="assets/icons/building.svg"
+                alt="Icono planes empresariales"
+              />
+            </div>
+            <div>
+              <h3 data-i18n="plans.business.title">Planes Empresariales</h3>
+              <p data-i18n="plans.business.subtitle">
+                Para empresas, hoteles y municipalidades
+              </p>
+            </div>
+          </div>
+
+          <div class="plans-slider" id="slider-empresarial">
+            <div class="plans-grid">
+              <!-- EMPRESARIAL -->
+              <article class="plan-card">
+                <h4 data-i18n="plans.enterprise1.title">Empresarial</h4>
+
+                <span
+                  class="plan-subtitle"
+                  data-i18n="plans.enterprise1.subtitle"
+                >
+                  Para edificios y pequeñas empresas
+                </span>
+
+                <div class="plan-price">
+                  S/. 299<span data-i18n="plans.month">/mes</span>
+                </div>
+
+                <ul class="plan-features">
+                  <li data-i18n="plans.enterprise1.item1">
+                    Hasta 20 puntos de monitoreo
+                  </li>
+                  <li data-i18n="plans.enterprise1.item2">
+                    Dashboard centralizado profesional
+                  </li>
+                  <li data-i18n="plans.enterprise1.item3">
+                    Múltiples usuarios (hasta 5)
+                  </li>
+                  <li data-i18n="plans.enterprise1.item4">
+                    Reportes automáticos y análisis
+                  </li>
+                  <li data-i18n="plans.enterprise1.item5">
+                    API para integración con sistemas
+                  </li>
+                  <li data-i18n="plans.enterprise1.item6">
+                    Prevención proactiva de fallas
+                  </li>
+                  <li data-i18n="plans.enterprise1.item7">
+                    Soporte técnico dedicado
+                  </li>
+                </ul>
+
+                <button class="plan-button" data-i18n="plans.buy">
+                  Comprar
+                </button>
+              </article>
+
+              <!-- CORPORATIVO -->
+              <article
+                class="plan-card plan-card-popular plan-card-popular-purple"
+              >
+                <span
+                  class="plan-popular-badge plan-popular-badge-purple"
+                  data-i18n="plans.popular"
+                >
+                  Más Popular
+                </span>
+
+                <h4 data-i18n="plans.enterprise2.title">Corporativo</h4>
+
+                <span
+                  class="plan-subtitle"
+                  data-i18n="plans.enterprise2.subtitle"
+                >
+                  Para hoteles, municipios e industrias
+                </span>
+
+                <div class="plan-price">
+                  S/. 799<span data-i18n="plans.month">/mes</span>
+                </div>
+
+                <ul class="plan-features">
+                  <li data-i18n="plans.enterprise2.item1">
+                    Monitoreo ilimitado
+                  </li>
+                  <li data-i18n="plans.enterprise2.item2">
+                    Gestión multi-sede centralizada
+                  </li>
+                  <li data-i18n="plans.enterprise2.item3">
+                    Usuarios ilimitados con roles
+                  </li>
+                  <li data-i18n="plans.enterprise2.item4">
+                    Alertas personalizadas por rol y equipo
+                  </li>
+                  <li data-i18n="plans.enterprise2.item5">
+                    Integración con sistemas existentes
+                  </li>
+                  <li data-i18n="plans.enterprise2.item6">
+                    IA y análisis predictivo avanzado
+                  </li>
+                  <li data-i18n="plans.enterprise2.item7">
+                    Reportes ejecutivos automáticos
+                  </li>
+                  <li data-i18n="plans.enterprise2.item8">
+                    Ingeniero de soporte asignado 24/7
+                  </li>
+                </ul>
+
+                <button
+                  class="plan-button plan-button-primary"
+                  data-i18n="plans.buy"
+                >
+                  Comprar
+                </button>
+              </article>
+
+              <!-- ENTERPRISE -->
+              <article class="plan-card">
+                <h4 data-i18n="plans.enterprise3.title">Enterprise</h4>
+
+                <span
+                  class="plan-subtitle"
+                  data-i18n="plans.enterprise3.subtitle"
+                >
+                  Soluciones a medida para grandes infraestructuras
+                </span>
+
+                <div class="plan-price" data-i18n="plans.enterprise3.price">
+                  Personalizado
+                </div>
+
+                <ul class="plan-features">
+                  <li data-i18n="plans.enterprise3.item1">
+                    Todo lo incluido en Corporativo
+                  </li>
+                  <li data-i18n="plans.enterprise3.item2">
+                    Infraestructura dedicada y aislada
+                  </li>
+                  <li data-i18n="plans.enterprise3.item3">
+                    Desarrollo de funcionalidades personalizadas
+                  </li>
+                  <li data-i18n="plans.enterprise3.item4">
+                    Consultoría técnica especializada
+                  </li>
+                  <li data-i18n="plans.enterprise3.item5">
+                    Cumplimiento normativo garantizado
+                  </li>
+                  <li data-i18n="plans.enterprise3.item6">
+                    Control operativo multi-instalación
+                  </li>
+                </ul>
+
+                <button class="plan-button" data-i18n="plans.buy">
+                  Comprar
+                </button>
+              </article>
+            </div>
+          </div>
+
+          <div class="slider-dots" data-slider="slider-empresarial">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
+    <!-- ===================== -->
+    <!-- CONTACT -->
+    <!-- ===================== -->
+    <section id="contact" class="contact">
+      <div class="contact-container">
+        <div class="contact-header">
+          <span class="contact-badge" data-i18n="contact.badge">Contacto</span>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-  <div class="footer-container">
-    <div class="footer-content">
+          <h2 data-i18n="contact.title">
+            Comienza a monitorear tus recursos hoy
+          </h2>
 
-      <div class="footer-brand">
-        <img src="assets/images/logo.png" alt="Logo LowCortisol" class="footer-logo">
+          <p data-i18n="contact.description">
+            Agenda una demo personalizada y descubre cómo LowCortisol puede
+            ayudarte a prevenir fugas, ahorrar costos y mejorar la seguridad
+          </p>
+        </div>
 
-        <p data-i18n="footer.description">
-          Monitoreo inteligente para prevenir fugas y optimizar recursos.
-        </p>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 data-i18n="contact.questions">¿Tienes preguntas?</h3>
+
+            <p data-i18n="contact.text">
+              Contáctanos y descubre cómo LowCortisol puede transformar la
+              gestión de tus recursos.
+            </p>
+
+            <!-- EMAIL -->
+            <div class="contact-card">
+              <div class="contact-card-icon contact-card-icon-blue">
+                <img src="assets/icons/Email.svg" alt="Icono email" />
+              </div>
+              <div class="contact-card-text">
+                <h4 data-i18n="contact.email">Email</h4>
+                <p>contacto@lowcortisol.io</p>
+                <p>ventas@lowcortisol.io</p>
+              </div>
+            </div>
+
+            <!-- TELEFONO -->
+            <div class="contact-card">
+              <div class="contact-card-icon contact-card-icon-green">
+                <img src="assets/icons/Phone.svg" alt="Icono teléfono" />
+              </div>
+              <div class="contact-card-text">
+                <h4 data-i18n="contact.phone">Teléfono</h4>
+                <p>+51 978513120</p>
+                <p data-i18n="contact.schedule">Lun - Vie: 9:00 - 18:00</p>
+              </div>
+            </div>
+
+            <!-- OFICINA -->
+            <div class="contact-card">
+              <div class="contact-card-icon contact-card-icon-purple">
+                <img src="assets/icons/building.svg" alt="Icono oficina" />
+              </div>
+              <div class="contact-card-text">
+                <h4 data-i18n="contact.office">Oficina</h4>
+                <p>Av. Javier Prado 1234, Piso 5</p>
+                <p>Santiago de Surco, Lima</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form class="contact-form">
+              <label for="fullName" data-i18n="form.name"
+                >Nombre Completo *</label
+              >
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Escribe tu nombre"
+                data-i18n-placeholder="form.namePlaceholder"
+              />
+
+              <label for="email" data-i18n="form.email">Email *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="ejemplo@gmail.com"
+                data-i18n-placeholder="form.emailPlaceholder"
+              />
+
+              <label for="clientType" data-i18n="form.clientType"
+                >Tipo de cliente *</label
+              >
+              <select id="clientType" name="clientType" required>
+                <option
+                  value=""
+                  disabled
+                  selected
+                  data-i18n="form.selectOption"
+                >
+                  Selecciona una opción
+                </option>
+                <option value="residencial" data-i18n="form.residential">
+                  Personas Residencial
+                </option>
+                <option value="infraestructura" data-i18n="form.infrastructure">
+                  Profesionales de Infraestructura
+                </option>
+              </select>
+
+              <label for="message" data-i18n="form.message">Mensaje *</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Cuéntanos más"
+                data-i18n-placeholder="form.messagePlaceholder"
+              ></textarea>
+
+              <button
+                type="submit"
+                class="contact-button"
+                data-i18n="form.submit"
+              >
+                ENVIAR MENSAJE
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="footer-links">
-        <a href="#home" data-i18n="footer.home">Inicio</a>
-        <a href="#features" data-i18n="footer.features">Funcionalidades</a>
-        <a href="#planes" data-i18n="footer.plans">Planes</a>
-        <a href="#contact" data-i18n="footer.contact">Contacto</a>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <img
+              src="assets/images/logo.png"
+              alt="Logo LowCortisol"
+              class="footer-logo"
+            />
+
+            <p data-i18n="footer.description">
+              Monitoreo inteligente para prevenir fugas y optimizar recursos.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#home" data-i18n="footer.home">Inicio</a>
+            <a href="#features" data-i18n="footer.features">Funcionalidades</a>
+            <a href="#planes" data-i18n="footer.plans">Planes</a>
+            <a href="#contact" data-i18n="footer.contact">Contacto</a>
+          </div>
+
+          <div class="footer-copy">
+            <p data-i18n="footer.copy">
+              © 2026 LowCortisol. Todos los derechos reservados.
+            </p>
+          </div>
+        </div>
       </div>
+    </footer>
 
-      <div class="footer-copy">
-        <p data-i18n="footer.copy">
-          © 2026 LowCortisol. Todos los derechos reservados.
-        </p>
-      </div>
-
-    </div>
-  </div>
-</footer>
-
-
-  <!-- JS -->
-  <script src="js/main.js"></script>
-
-</body>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
-
