@@ -1,341 +1,134 @@
-/* ============================================
-   SECCIÓN SOLUTIONS - RESPONSIVE
-   ============================================ */
-
-/* Contenedor principal de solutions */
 #solutions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 80px 20px;
-    background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-
-
-/* ============================================
-   BARRA VERDE - Etiqueta
-   ============================================ */
-#Green-Bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: auto;
-    min-width: 180px;
-    padding: 10px 24px;
-    border-radius: 30px;
-    background-color: #dbeafe;
-    margin-bottom: 24px;
-    color: #2563eb;
-    font-size: 0.95rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-}
-
-/* ============================================
-   INTRODUCCIÓN
-   ============================================ */
 #Intro-Solutions {
-    text-align: center;
-    max-width: 600px;
-    margin-bottom: 60px;
+  max-width: 720px;
 }
 
-#Intro-Solutions h2 {
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 1.2;
-    color: #0f172a;
-    margin-bottom: 16px;
-}
-
-#Intro-Solutions p {
-    font-size: clamp(1rem, 2vw, 1.15rem);
-    color: #555;
-    line-height: 1.6;
-}
-
-/* ============================================
-   CONTENEDOR PRINCIPAL DE SOLUCIONES
-   ============================================ */
 #Main-Container-Solutions {
-    width: 100%;
-    max-width: 1400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-}
-
-/* ============================================
-   TARJETAS DE USUARIOS
-   ============================================ */
-
-.Solicita-Informacion
-{
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    margin-top: 10px;   
-    padding: 12px 12px;
+  width: min(var(--page-max-width), 100%);
+  display: grid;
+  gap: 20px;
 }
 
 #Usuarios-Residenciales,
 #Usuarios-Comerciales {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1100px;
+  width: 100%;
 }
 
-/* Contenedor interno de cada tarjeta */
 .Container-Usuarios-Solutions {
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0;
-  width: 100%;
-  max-width: 950px;
-  background: #ffffff;
-  border-radius: 18px;
+  grid-template-columns: 0.95fr 1.05fr;
   overflow: hidden;
-  padding: 0;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
 }
 
-.Container-Usuarios-Solutions:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-}
-
-/* Invertir orden para la segunda tarjeta (comerciales) */
 #Usuarios-Comerciales .Container-Usuarios-Solutions {
-    flex-direction: row-reverse;
+  grid-template-columns: 1.05fr 0.95fr;
 }
 
-/* ============================================
-   PARTE IZQUIERDA - Imágenes
-   ============================================ */
-.LeftPart-Usuarios {
-  width: 100%;
-  max-width: none;
-  flex: none;
+.LeftPart-Usuarios,
+.LeftPart-Usuarios-IMG,
+.RightPart-Usuarios {
+  min-width: 0;
+}
 
+.LeftPart-Usuarios,
+.LeftPart-Usuarios-IMG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at center, rgba(47, 128, 237, 0.18), transparent 56%),
+    var(--color-surface-soft);
+  padding: 28px;
+}
+
+.RightPart-Usuarios {
+  padding: 32px;
+}
+
+.ICON-Usuarios-IMG {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 14px;
 }
 
 #IMG-Residenciales,
 #IMG-Comerciales {
   width: 100%;
-  height: 100%;
-  max-width: none;
-  min-height: 520px;
-  border-radius: 0;
+  max-width: 320px;
+  border-radius: var(--radius-lg);
   object-fit: cover;
-  box-shadow: none;
-}
-
-/* ============================================
-   PARTE DERECHA - Imagenes
-   ============================================ */
-.ICON-Usuarios-IMG{
-  width: 56px;
-  height: 56px;
-  margin-bottom: 0;
-  border-radius: 14px;
-}
-
-
-
-/* ============================================
-   PARTE DERECHA - Contenido
-   ============================================ */
-.ICON_USUARIOS
-{
-  width: auto;
-  height: auto;
-  margin-bottom: 24px;
-}
-
-
-.RightPart-Usuarios {
-  padding: 60px 64px;
-  align-items: flex-start;
-  text-align: left;
-
-}
-
-.RightPart-Usuarios h2 {
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    color: #1a1a1a;
-    margin-bottom: 12px;
-    font-weight: 700;
-    line-height: 1.3;
 }
 
 .subtitle {
-  color: #145cff;
-  font-weight: 700;
-  margin-bottom: 22px;
+  color: var(--color-text);
+  font-size: 24px;
+  line-height: 1.05;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  margin-bottom: 14px;
 }
 
-#Text-RightPart p {
-  color: #26344d;
-  font-size: 1rem;
-  line-height: 1.7;
-  margin-bottom: 26px;
-}
-
-
-#Text-RightPart h2,
-.RightPart-Usuarios h2 {
-  font-size: 2rem;
-  color: #071225;
-  margin-bottom: 8px;
-  font-weight: 600;
-  letter-spacing: -0.3px;
-}
-
-
-.RightPart-Usuarios > p {
-    font-size: clamp(0.95rem, 1.8vw, 1.05rem);
-    color: #444;
-    line-height: 1.7;
-    margin-bottom: 24px;
-}
-
-/* ============================================
-   LISTAS
-   ============================================ */
 .RightPart-Usuarios ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+  display: grid;
+  gap: 10px;
+  list-style: none;
 }
 
 .RightPart-Usuarios li {
-    font-size: clamp(0.9rem, 1.6vw, 1rem);
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 12px;
-    padding-left: 28px;
-    position: relative;
+  position: relative;
+  color: var(--color-text-muted);
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 700;
+  padding-left: 24px;
 }
 
 .RightPart-Usuarios li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    top: 2px;
-    color: #008905;
-    font-weight: 700;
-    font-size: 12px;
-    justify-content: center;
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-success);
+  font-weight: 900;
 }
 
-/* ============================================
-   MEDIA QUERIES - TABLET
-   ============================================ */
-@media screen and (max-width: 992px) {
-    #solutions {
-        padding: 60px 20px;
-    }
-
-    #Intro-Solutions {
-        margin-bottom: 40px;
-    }
-
-    .Container-Usuarios-Solutions {
-        padding: 40px 35px;
-        gap: 40px;
-    }
-
-    #Usuarios-Comerciales .Container-Usuarios-Solutions {
-        flex-direction: row;
-    }
+.Solicita-Informacion {
+  border: none;
+  background: var(--color-primary);
+  color: #ffffff;
+  padding: 13px 18px;
+  margin-top: 18px;
+  box-shadow: var(--shadow-button);
 }
 
-/* ============================================
-   MEDIA QUERIES - MÓVIL
-   ============================================ */
-@media screen and (max-width: 900px) {
+.Solicita-Informacion:hover {
+  background: var(--color-primary-dark);
+}
+
+@media (max-width: 980px) {
   .Container-Usuarios-Solutions,
   #Usuarios-Comerciales .Container-Usuarios-Solutions {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    gap: 0;
-    border-radius: 14px;
-    overflow: hidden;
-  }
-
-  .LeftPart-Usuarios {
-    width: 100%;
-    max-width: none;
-  }
-
-  #IMG-Residenciales,
-  #IMG-Comerciales {
-    width: 100%;
-    max-width: none;
-    height: 255px;
-    min-height: auto;
-    object-fit: cover;
-    border-radius: 0;
-    box-shadow: none;
-  }
-
-  .RightPart-Usuarios {
-    width: 100%;
-    padding: 32px;
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .ICON_USUARIOS {
-    align-self: flex-start;
-    margin-bottom: 24px;
-  }
-
-  .ICON-Usuarios-IMG {
-    width: 56px;
-    height: 56px;
-  }
-
-  .subtitle {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  .RightPart-Usuarios li {
-    text-align: left;
+    grid-template-columns: 1fr;
   }
 }
-/* ============================================
-   MEDIA QUERIES - MÓVIL PEQUEÑO
-   ============================================ */
-@media screen and (max-width: 480px) {
-    #solutions {
-        padding: 40px 12px;
-    }
 
-    .Container-Usuarios-Solutions,
-    #Usuarios-Comerciales .Container-Usuarios-Solutions {
-        padding: 28px 20px;
-        border-radius: 20px;
-        gap: 25px;
-    }
+@media (max-width: 700px) {
+  .RightPart-Usuarios,
+  .LeftPart-Usuarios,
+  .LeftPart-Usuarios-IMG {
+    padding: 20px;
+  }
 
-    #IMG-Residenciales,
-    #IMG-Comerciales {
-        max-width: 180px;
-    }
-
-    .RightPart-Usuarios li {
-        margin-bottom: 10px;
-        font-size: 0.9rem;
-    }
+  #Intro-Solutions p {
+    font-size: 16px;
+  }
 }
