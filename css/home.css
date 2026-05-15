@@ -1,135 +1,176 @@
-/* ACA VA LA SECCION DE CSS DE INICIO */
+/* =========================================================
+   HOME
+   ========================================================= */
 
 .home {
-  min-height: calc(100vh - 80px);
-  padding: 60px 0;
-  background: linear-gradient(to bottom, #eff6ff, #ffffff);
-  font-family: Arial, sans-serif;
-  display: flex;
-  align-items: flex-start;
-  padding-top: 120px;
+  background: #f5f7fb;
 }
 
-.home-container {
-  width: 100%;
-  max-width: 1024px;
+.home .home-container {
+  width: min(1080px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 0 20px;
 }
 
-.home-content {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  align-items: center;
-  gap: 48px;
-}
-
-.home-text h1 {
-  font-size: 56px;
-  font-weight: 700;
-  color: #0f172a;
-  margin-bottom: 18px;
-  line-height: 1.1;
-}
-
-.home-text h2 {
-  font-size: 34px;
-  font-weight: 700;
-  color: #111827;
-  line-height: 1.25;
-  margin-bottom: 18px;
-}
-
-.home-text h2 span {
-  color: #2563eb;
-  display: block;
-}
-
-.home-text p {
-  max-width: 560px;
-  font-size: 18px;
-  line-height: 1.8;
-  color: #475569;
-  margin-bottom: 30px;
-}
-
-.home-buttons {
+.home .home-content {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
 }
 
-.home-button {
+/* =========================================================
+   HOME TEXT
+   ========================================================= */
+
+.home .home-text {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.home .home-text h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 14px 24px;
+  width: fit-content;
+  margin: 0 auto 16px;
+  padding: 8px 16px;
+  border: 1px solid #bfdbfe;
   border-radius: 999px;
+  background: #eaf3ff;
+  color: #2f80ed;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.home .home-text h2 {
+  max-width: 900px;
+  margin: 0 auto 14px;
+  color: #07142f;
+  font-size: clamp(32px, 4vw, 56px);
+  font-weight: 900;
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+}
+
+.home .home-text h2 span {
+  color: #2f80ed;
+}
+
+.home .home-text p {
+  max-width: 900px;
+  margin: 0 auto 22px;
+  color: #64748b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   HOME BUTTONS
+   ========================================================= */
+
+.home .home-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.home .home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 11px 18px;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 1;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
-.home-button-primary {
-  background: #111827;
+.home .home-button:hover {
+  transform: translateY(-2px);
+}
+
+.home .home-button-primary {
+  border: 1px solid #2f80ed;
+  background: #2f80ed;
   color: #ffffff;
-  border: 1px solid #111827;
+  box-shadow: 0 10px 24px rgba(47, 128, 237, 0.22);
 }
 
-.home-button-primary:hover {
-  background: #000000;
-  transform: translateY(-2px);
+.home .home-button-primary:hover {
+  border-color: #1f6fd6;
+  background: #1f6fd6;
 }
 
-.home-button-secondary {
+.home .home-button-secondary {
+  border: 1px solid #dbe4f0;
   background: #ffffff;
-  color: #111827;
-  border: 1px solid #d1d5db;
+  color: #07142f;
 }
 
-.home-button-secondary:hover {
-  border-color: #2563eb;
-  color: #2563eb;
-  transform: translateY(-2px);
+.home .home-button-secondary:hover {
+  border-color: #bfdbfe;
+  background: #eaf3ff;
+  color: #2f80ed;
 }
 
-.home-image {
+/* =========================================================
+   HOME IMAGE
+   ========================================================= */
+
+.home .home-image {
   display: flex;
   justify-content: center;
+  margin-top: 12px;
 }
 
-.home-image img {
+.home .home-image img {
   width: 100%;
-  max-width: 430px;
-  border-radius: 20px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.12),
-              0 10px 10px -5px rgba(0, 0, 0, 0.05);
+  max-width: 760px;
+  height: auto;
   object-fit: cover;
+  border-radius: 24px;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .home-content {
-    grid-template-columns: 1fr;
-    text-align: center;
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 700px) {
+  .home .home-text {
+    padding-top: 28px;
   }
 
-  .home-text p {
-    margin-left: auto;
-    margin-right: auto;
+  .home .home-text h2 {
+    font-size: 34px;
   }
 
-  .home-buttons {
-    justify-content: center;
+  .home .home-text p {
+    font-size: 16px;
   }
 
-  .home-text h1 {
-    font-size: 44px;
+  .home .home-buttons {
+    align-items: stretch;
   }
 
-  .home-text h2 {
-    font-size: 28px;
+  .home .home-button {
+    width: 100%;
+  }
+
+  .home .home-image img {
+    max-width: 100%;
   }
 }

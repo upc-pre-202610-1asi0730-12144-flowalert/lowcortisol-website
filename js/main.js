@@ -262,98 +262,28 @@ vanguardia`,
 "plans.description": `Servicio por suscripción con facturación mensual. Sin compromisos a largo plazo.
 Cancela cuando quieras.`,
 
-// RESIDENCIAL
-"plans.residential.title": "Planes Residenciales",
-"plans.residential.subtitle": "Para hogares y familias",
+"plans.month": "mensual",
+"plans.popular": "Recomendado",
+"plans.buy": "Comprar plan",
 
-// BASICO
-"plans.basic.title": "Básico",
-"plans.basic.subtitle": `Ideal para departamentos y casas pequeñas`,
+"plans.basic.title": "Basic",
+"plans.basic.subtitle": "Ideal para iniciar el monitoreo de una sola sede.",
+"plans.basic.capacity": "1 sede(s) · 3 dispositivo(s)",
 
-"plans.basic.item1": "Monitoreo de 1 red (agua o gas)",
-"plans.basic.item2": "Alertas básicas por email",
-"plans.basic.item3": "App móvil intuitiva",
-"plans.basic.item4": "Histórico de 30 días",
-"plans.basic.item5": "1 sensor incluido",
-"plans.basic.item6": "Sin conocimientos técnicos requeridos",
+"plans.pro.title": "Pro",
+"plans.pro.subtitle": "Para usuarios que necesitan más sedes y reportes.",
+"plans.pro.capacity": "3 sede(s) · 10 dispositivo(s)",
 
-// FAMILIAR
-"plans.popular": "Más Popular",
+"plans.businessPlan.title": "Business",
+"plans.businessPlan.subtitle": "Para negocios con monitoreo intensivo y soporte prioritario.",
+"plans.businessPlan.capacity": "10 sede(s) · 40 dispositivo(s)",
 
-"plans.family.title": "Familiar",
-
-"plans.family.subtitle": `Perfecto para hogares completos`,
-
-"plans.family.item1": "Monitoreo de hasta 3 redes",
-"plans.family.item2": "Alertas avanzadas (email + SMS + push)",
-"plans.family.item3": "Control remoto de válvulas desde el celular",
-"plans.family.item4": "Histórico de 12 meses",
-"plans.family.item5": "Hasta 3 sensores incluidos",
-"plans.family.item6": "Análisis de consumo y ahorro",
-"plans.family.item7": "Instalación guiada paso a paso",
-
-// PREMIUM
-"plans.premium.title": "Premium",
-
-"plans.premium.subtitle": `Para casas grandes y múltiples propiedades`,
-
-"plans.premium.item1": "Monitoreo ilimitado de redes",
-"plans.premium.item2": "Alertas prioritarias multicanal",
-"plans.premium.item3": "Control remoto avanzado",
-"plans.premium.item4": "Histórico ilimitado",
-"plans.premium.item5": "Hasta 5 sensores incluidos",
-"plans.premium.item6": "IA predictiva para prevención de fugas",
-"plans.premium.item7": "Ahorro garantizado hasta 40%",
-"plans.premium.item8": "Soporte premium 24/7",
-
-// EMPRESARIAL
-"plans.business.title": "Planes Empresariales",
-"plans.business.subtitle": "Para empresas, hoteles y municipalidades",
-
-// EMPRESARIAL 1
-"plans.enterprise1.title": "Empresarial",
-
-"plans.enterprise1.subtitle": `Para edificios y pequeñas empresas`,
-
-"plans.enterprise1.item1": "Hasta 20 puntos de monitoreo",
-"plans.enterprise1.item2": "Dashboard centralizado profesional",
-"plans.enterprise1.item3": "Múltiples usuarios (hasta 5)",
-"plans.enterprise1.item4": "Reportes automáticos y análisis",
-"plans.enterprise1.item5": "API para integración con sistemas",
-"plans.enterprise1.item6": "Prevención proactiva de fallas",
-"plans.enterprise1.item7": "Soporte técnico dedicado",
-
-// CORPORATIVO
-"plans.enterprise2.title": "Corporativo",
-
-"plans.enterprise2.subtitle": `Para hoteles, municipios e industrias`,
-
-"plans.enterprise2.item1": "Monitoreo ilimitado",
-"plans.enterprise2.item2": "Gestión multi-sede centralizada",
-"plans.enterprise2.item3": "Usuarios ilimitados con roles",
-"plans.enterprise2.item4": "Alertas personalizadas por rol y equipo",
-"plans.enterprise2.item5": "Integración con sistemas existentes",
-"plans.enterprise2.item6": "IA y análisis predictivo avanzado",
-"plans.enterprise2.item7": "Reportes ejecutivos automáticos",
-"plans.enterprise2.item8": "Ingeniero de soporte asignado 24/7",
-"plans.month": "/mes",
-
-// ENTERPRISE
-"plans.enterprise3.title": "Enterprise",
-
-"plans.enterprise3.subtitle": `Soluciones a medida para grandes infraestructuras`,
-
-"plans.enterprise3.price": "Personalizado",
-
-"plans.enterprise3.item1": "Todo lo incluido en Corporativo",
-"plans.enterprise3.item2": "Infraestructura dedicada y aislada",
-"plans.enterprise3.item3": "Desarrollo de funcionalidades personalizadas",
-"plans.enterprise3.item4": "Consultoría técnica especializada",
-"plans.enterprise3.item5": "Cumplimiento normativo garantizado",
-"plans.enterprise3.item6": "Control operativo multi-instalación",
-
-// BOTON
-"plans.buy": "Comprar",
+"plans.feature.basicMonitoring": "Monitoreo básico",
+"plans.feature.essentialAlerts": "Alertas esenciales",
+"plans.feature.multiSite": "Multi-sede",
+"plans.feature.advancedReports": "Reportes avanzados",
+"plans.feature.prioritySupport": "Soporte prioritario",
+"plans.feature.enterpriseApi": "API empresarial",
 
 
 // CONTACT
@@ -577,98 +507,28 @@ and optimize the use of water and gas with clear insights and timely alerts.`,
 "plans.description": `Subscription-based service with monthly billing. No long-term commitments.
 Cancel anytime.`,
 
-// RESIDENTIAL
-"plans.residential.title": "Residential Plans",
-"plans.residential.subtitle": "For homes and families",
+"plans.month": "monthly",
+"plans.popular": "Recommended",
+"plans.buy": "Buy plan",
 
-// BASIC
 "plans.basic.title": "Basic",
+"plans.basic.subtitle": "Ideal to start monitoring a single site.",
+"plans.basic.capacity": "1 site(s) · 3 device(s)",
 
-"plans.basic.subtitle": `Ideal for apartments and small houses`,
+"plans.pro.title": "Pro",
+"plans.pro.subtitle": "For users who need more sites and reports.",
+"plans.pro.capacity": "3 site(s) · 10 device(s)",
 
-"plans.basic.item1": "Monitoring of 1 network (water or gas)",
-"plans.basic.item2": "Basic email alerts",
-"plans.basic.item3": "Intuitive mobile app",
-"plans.basic.item4": "30-day history",
-"plans.basic.item5": "1 sensor included",
-"plans.basic.item6": "No technical knowledge required",
+"plans.businessPlan.title": "Business",
+"plans.businessPlan.subtitle": "For businesses with intensive monitoring and priority support.",
+"plans.businessPlan.capacity": "10 site(s) · 40 device(s)",
 
-// FAMILY
-"plans.popular": "Most Popular",
-
-"plans.family.title": "Family",
-
-"plans.family.subtitle": `Perfect for complete households`,
-
-"plans.family.item1": "Monitoring of up to 3 networks",
-"plans.family.item2": "Advanced alerts (email + SMS + push)",
-"plans.family.item3": "Remote valve control from your phone",
-"plans.family.item4": "12-month history",
-"plans.family.item5": "Up to 3 sensors included",
-"plans.family.item6": "Consumption and savings analysis",
-"plans.family.item7": "Step-by-step guided installation",
-
-// PREMIUM
-"plans.premium.title": "Premium",
-
-"plans.premium.subtitle": `For large homes and multiple properties`,
-
-"plans.premium.item1": "Unlimited network monitoring",
-"plans.premium.item2": "Priority multi-channel alerts",
-"plans.premium.item3": "Advanced remote control",
-"plans.premium.item4": "Unlimited history",
-"plans.premium.item5": "Up to 5 sensors included",
-"plans.premium.item6": "AI-based leak prediction",
-"plans.premium.item7": "Up to 40% guaranteed savings",
-"plans.premium.item8": "24/7 premium support",
-
-// BUSINESS
-"plans.business.title": "Business Plans",
-"plans.business.subtitle": "For companies, hotels, and municipalities",
-
-// ENTERPRISE 1
-"plans.enterprise1.title": "Business",
-
-"plans.enterprise1.subtitle": `For buildings and small companies`,
-
-"plans.enterprise1.item1": "Up to 20 monitoring points",
-"plans.enterprise1.item2": "Centralized professional dashboard",
-"plans.enterprise1.item3": "Multiple users (up to 5)",
-"plans.enterprise1.item4": "Automated reports and analysis",
-"plans.enterprise1.item5": "API integration with systems",
-"plans.enterprise1.item6": "Proactive failure prevention",
-"plans.enterprise1.item7": "Dedicated technical support",
-
-// CORPORATE
-"plans.enterprise2.title": "Corporate",
-
-"plans.enterprise2.subtitle": `For hotels, municipalities, and industries`,
-
-"plans.enterprise2.item1": "Unlimited monitoring",
-"plans.enterprise2.item2": "Centralized multi-site management",
-"plans.enterprise2.item3": "Unlimited users with roles",
-"plans.enterprise2.item4": "Role-based alert customization",
-"plans.enterprise2.item5": "Integration with existing systems",
-"plans.enterprise2.item6": "Advanced AI and predictive analytics",
-"plans.enterprise2.item7": "Automated executive reports",
-"plans.enterprise2.item8": "24/7 dedicated support engineer",
-
-// ENTERPRISE 3
-"plans.enterprise3.title": "Enterprise",
-
-"plans.enterprise3.subtitle": `Custom solutions for large-scale infrastructures`,
-
-"plans.enterprise3.price": "Custom",
-
-"plans.enterprise3.item1": "Everything included in Corporate",
-"plans.enterprise3.item2": "Dedicated and isolated infrastructure",
-"plans.enterprise3.item3": "Custom feature development",
-"plans.enterprise3.item4": "Specialized technical consulting",
-"plans.enterprise3.item5": "Guaranteed regulatory compliance",
-"plans.enterprise3.item6": "Multi-site operational control",
-"plans.month": "/month",
-// BUTTON
-"plans.buy": "Buy",
+"plans.feature.basicMonitoring": "Basic monitoring",
+"plans.feature.essentialAlerts": "Essential alerts",
+"plans.feature.multiSite": "Multi-site",
+"plans.feature.advancedReports": "Advanced reports",
+"plans.feature.prioritySupport": "Priority support",
+"plans.feature.enterpriseApi": "Enterprise API",
 
 // CONTACT
 "contact.badge": "Contact",
@@ -749,4 +609,107 @@ langBtns.forEach(btn => {
   btn.addEventListener("click", () => {
     changeLanguage(currentLang === "es" ? "en" : "es");
   });
+});
+
+
+const WEBAPP_REGISTER_URL = "https://lowcortisol-webapp.onrender.com/register";
+
+const paymentModal = document.getElementById("payment-modal");
+const paymentForm = document.getElementById("payment-form");
+const paymentPlanName = document.getElementById("payment-plan-name");
+const paymentPlanPrice = document.getElementById("payment-plan-price");
+
+const cardNumberInput = document.getElementById("card-number");
+const cardExpirationInput = document.getElementById("card-expiration");
+const cardCvvInput = document.getElementById("card-cvv");
+
+let selectedLandingPlan = null;
+
+function onlyNumbers(value) {
+  return String(value || "").replace(/\D/g, "");
+}
+
+function formatCardNumber(value) {
+  return onlyNumbers(value)
+    .slice(0, 16)
+    .replace(/(.{4})/g, "$1 ")
+    .trim();
+}
+
+function formatExpirationDate(value) {
+  const numbers = onlyNumbers(value).slice(0, 4);
+
+  if (numbers.length <= 2) {
+    return numbers;
+  }
+
+  return `${numbers.slice(0, 2)}/${numbers.slice(2)}`;
+}
+
+function openPaymentModal(plan) {
+  selectedLandingPlan = plan;
+
+  paymentPlanName.textContent = plan.name;
+  paymentPlanPrice.textContent = `S/ ${Number(plan.price).toFixed(2)}`;
+
+  paymentModal.classList.add("is-open");
+  paymentModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("payment-open");
+}
+
+function closePaymentModal() {
+  paymentModal.classList.remove("is-open");
+  paymentModal.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("payment-open");
+  paymentForm.reset();
+}
+
+document.querySelectorAll(".plan-buy-button").forEach((button) => {
+  button.addEventListener("click", () => {
+    openPaymentModal({
+      id: button.dataset.planId,
+      code: button.dataset.planCode,
+      name: button.dataset.planName,
+      price: button.dataset.planPrice,
+    });
+  });
+});
+
+document.querySelectorAll("[data-close-payment]").forEach((button) => {
+  button.addEventListener("click", closePaymentModal);
+});
+
+cardNumberInput.addEventListener("input", (event) => {
+  event.target.value = formatCardNumber(event.target.value);
+});
+
+cardExpirationInput.addEventListener("input", (event) => {
+  event.target.value = formatExpirationDate(event.target.value);
+});
+
+cardCvvInput.addEventListener("input", (event) => {
+  event.target.value = onlyNumbers(event.target.value).slice(0, 3);
+});
+
+paymentForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  if (!selectedLandingPlan) {
+    return;
+  }
+
+  const params = new URLSearchParams({
+    plan: selectedLandingPlan.id,
+    code: selectedLandingPlan.code,
+    checkout: "paid",
+    paymentMethod: "card",
+  });
+
+  window.location.href = `${WEBAPP_REGISTER_URL}?${params.toString()}`;
+});
+
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && paymentModal.classList.contains("is-open")) {
+    closePaymentModal();
+  }
 });
