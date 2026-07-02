@@ -126,9 +126,8 @@ es: {
   "home.subtitle": `Controla tus recursos,
 <span>previene fugas</span>`,
 
-  "home.description": `Monitoreo en tiempo real de redes de agua y gas para hogares y
-profesionales, que previene fugas, mejora la seguridad y reduce
-costos mediante alertas inteligentes.`,
+  "home.description": `Monitoreo operativo de agua y gas para sedes, habitaciones,
+conductos, sensores y válvulas, con alertas, incidentes y reportes de consumo.`,
 
   "home.primaryButton": "Ver Planes",
   "home.secondaryButton": "Solicitar Demo",
@@ -138,66 +137,66 @@ costos mediante alertas inteligentes.`,
 
   "benefits.title": `¿Por qué elegir LowCortisol?`,
 
-  "benefits.description": `Tecnología IoT avanzada que transforma la gestión de recursos en tu hogar o empresa`,
+  "benefits.description": `Una plataforma operativa para organizar sedes, medir consumo y responder ante riesgos de agua y gas`,
 
-  "benefits.card1.title": "Seguridad Mejorada",
+  "benefits.card1.title": "Respuesta ante riesgos",
 
-  "benefits.card1.text": `Detecta fugas de gas y agua al instante con alertas automáticas.
-Protege tu propiedad y a las personas con notificaciones en tiempo real.`,
+  "benefits.card1.text": `Convierte lecturas críticas en alertas e incidentes para que el equipo pueda actuar,
+registrar acciones y cerrar el ciclo operativo.`,
 
-  "benefits.card2.title": "Ahorro Significativo",
+  "benefits.card2.title": "Ahorro operativo",
 
-  "benefits.card2.text": `Reduce hasta un 40% en costos operativos eliminando desperdicios.
-Identifica patrones de consumo y optimiza el uso de recursos.`,
+  "benefits.card2.text": `Compara lecturas contra límites de consumo, revisa tendencias y encuentra oportunidades
+para reducir desperdicio de agua y gas.`,
 
-  "benefits.card3.title": "Monitoreo en Tiempo Real",
+  "benefits.card3.title": "Control por ubicación",
 
-  "benefits.card3.text": `Visualiza el consumo de agua y gas desde cualquier lugar.
-Dashboard intuitivo con gráficos y métricas actualizadas cada segundo.`,
+  "benefits.card3.text": `Ordena sedes, habitaciones y grupos, y vincula sensores, válvulas y conductos
+para entender dónde se origina cada consumo.`,
 
   // FEATURES
   "features.badge": "Funcionalidades",
 
-  "features.title": `Funcionalidades diseñadas para un monitoreo inteligente`,
+  "features.title": `Funcionalidades diseñadas para una operación conectada`,
 
-  "features.description": `Nuestra plataforma te ayuda a supervisar el consumo, detectar fugas a tiempo
-y optimizar el uso de agua y gas con información clara y alertas oportunas.`,
+  "features.description": `Nuestra plataforma conecta ubicación, dispositivos, conductos, límites, alertas
+e incidentes para administrar el consumo de agua y gas con información accionable.`,
 
-  "features.card1.title": "Monitoreo en tiempo real",
-  "features.card1.text": `Visualiza el consumo de agua y gas al instante desde una sola plataforma.`,
-  "features.card1.item1": "Datos actualizados en segundos",
-  "features.card1.item2": "Visualización desde web y móvil",
-  "features.card1.item3": "Control centralizado de múltiples redes",
+  "features.card1.title": "Panel de monitoreo",
+  "features.card1.text": `Visualiza el consumo acumulado de agua y gas desde conductos activos.`,
+  "features.card1.item1": "Resumen de lecturas por recurso",
+  "features.card1.item2": "Gráficos de consumo por agua o gas",
+  "features.card1.item3": "Indicadores de límites y anomalías",
 
-  "features.card2.title": "Alertas inteligentes",
-  "features.card2.text": `Recibe notificaciones automáticas ante comportamientos inusuales.`,
-  "features.card2.item1": "Alertas por email, SMS y app",
-  "features.card2.item2": "Detección de consumos anormales",
-  "features.card2.item3": "Configuración personalizada",
+  "features.card2.title": "Alertas e incidentes",
+  "features.card2.text": `Gestiona alertas críticas y coordina incidentes desde una consola operativa.`,
+  "features.card2.item1": "Reconocimiento y cierre de alertas",
+  "features.card2.item2": "Creación de incidentes desde una alerta",
+  "features.card2.item3": "Registro de acciones de mitigación",
 
-  "features.card3.title": "Historial y reportes",
-  "features.card3.text": `Consulta datos históricos y analiza patrones.`,
-  "features.card3.item1": "Reportes diarios, semanales y mensuales",
-  "features.card3.item2": "Gráficos claros e intuitivos",
-  "features.card3.item3": "Análisis de tendencias de consumo",
+  "features.card3.title": "Reportes de consumo",
+  "features.card3.text": `Genera reportes por periodo y recurso usando las lecturas registradas.`,
+  "features.card3.item1": "Rangos de fecha controlados",
+  "features.card3.item2": "Consumo total por agua o gas",
+  "features.card3.item3": "Detalle de lecturas base",
 
-  "features.card4.title": "Detección temprana de fugas",
-  "features.card4.text": `Identifica anomalías antes de que se conviertan en riesgos.`,
-  "features.card4.item1": "Identificación automática de fugas",
-  "features.card4.item2": "Prevención de daños estructurales",
-  "features.card4.item3": "Reducción de pérdidas económicas",
+  "features.card4.title": "Límites y anomalías",
+  "features.card4.text": `Define límites de consumo para clasificar lecturas normales, advertencias y eventos críticos.`,
+  "features.card4.item1": "Umbrales por recurso",
+  "features.card4.item2": "Anomalías abiertas y críticas",
+  "features.card4.item3": "Ciclo de riesgo trazable",
 
-  "features.card5.title": "Panel intuitivo",
-  "features.card5.text": `Accede a información clara desde cualquier dispositivo.`,
-  "features.card5.item1": "Interfaz simple y amigable",
-  "features.card5.item2": "Diseño responsive",
-  "features.card5.item3": "Acceso rápido a funciones clave",
+  "features.card5.title": "Dispositivos conectados",
+  "features.card5.text": `Administra sensores, válvulas y conductos dentro de cada ubicación.`,
+  "features.card5.item1": "Sedes, habitaciones y grupos",
+  "features.card5.item2": "Válvulas asociadas a sensores",
+  "features.card5.item3": "Conductos vinculados a una válvula libre",
 
-  "features.card6.title": "Optimización de costos",
-  "features.card6.text": `Reduce gastos operativos con un control eficiente.`,
-  "features.card6.item1": "Reducción de consumo innecesario",
-  "features.card6.item2": "Prevención de fugas costosas",
-  "features.card6.item3": "Ahorro hasta 40% en recursos",
+  "features.card6.title": "Ahorro y soporte",
+  "features.card6.text": `Revisa ahorro operativo y solicita ayuda cuando una incidencia necesite seguimiento.`,
+  "features.card6.item1": "Insights de ahorro",
+  "features.card6.item2": "Tickets de soporte",
+  "features.card6.item3": "Artículos de ayuda",
 
   // ABOUT
   "about.badge": "Quiénes Somos",
@@ -217,38 +216,38 @@ vanguardia`,
 
   "about.why.title": "¿Por qué LowCortisol?",
 
-  "about.why.text": `Nuestro nombre refleja nuestro compromiso: eliminar el estrés (cortisol) asociado a la gestión de recursos críticos. Con sensores inteligentes, alertas proactivas y control total desde tu dispositivo móvil, transformamos la ansiedad de posibles fallas en tranquilidad y eficiencia.`,
+  "about.why.text": `Nuestro nombre refleja nuestro compromiso: reducir el estrés operativo asociado a recursos críticos. Con sedes organizadas, lecturas, límites, alertas e incidentes, convertimos el consumo de agua y gas en decisiones claras.`,
 
 // SOLUTIONS
 "solutions.title": "Soluciones para Todos",
 
 "solutions.subtitle": "Adaptado a tus necesidades",
 
-"solutions.description": `Ya sea que administres un hogas, un hotel o una ciudad entera, tenemos la solución perfecta`,
+"solutions.description": `Ya sea que gestiones una sede pequeña o una operación con varias ubicaciones, LowCortisol se adapta al nivel de control que necesitas.`,
 
 "solutions.residential.title": "Usuarios Residenciales",
 
-"solutions.residential.subtitle": `Protege tu hogar y ahorra desde tu celular.`,
+"solutions.residential.subtitle": `Monitoreo inicial para una sede.`,
 
-"solutions.residential.text": `Solución diseñada para personas con bajo o medio nivel técnico que buscan prevenir fugas, reducir costos y controlar su hogar de manera simple e intuitiva.`,
+"solutions.residential.text": `Solución diseñada para empezar a medir agua y gas, registrar lecturas, revisar límites y atender alertas operativas sin complejidad innecesaria.`,
 
-"solutions.residential.item1": "Instalación rápida y sencilla, sin conocimientos técnicos",
-"solutions.residential.item2": "Control total desde tu smartphone",
-"solutions.residential.item3": "Alertas automáticas de seguridad 24/7",
-"solutions.residential.item4": "Reducción de costos hasta 30-40%",
-"solutions.residential.item5": "Interfaz intuitiva y fácil de usar",
+"solutions.residential.item1": "Una sede con hasta cinco dispositivos",
+"solutions.residential.item2": "Monitoreo de agua y gas",
+"solutions.residential.item3": "Alertas operativas",
+"solutions.residential.item4": "Soporte por ticket",
+"solutions.residential.item5": "Panel simple para revisar consumo",
 
 "solutions.business.title": "Profesionales de Infraestructura",
 
 "solutions.business.subtitle": `Gestión operativa centralizada y eficiente`,
 
-"solutions.business.text": `Para administradores, jefes de mantenimiento y gestores que requieren monitoreo centralizado, prevención de fallas y control eficiente de múltiples instalaciones (hoteles, municipalidades, edificios, industrias).`,
+"solutions.business.text": `Para administradores, jefes de mantenimiento y operadores que requieren seguimiento por sede, dispositivos conectados, reportes de consumo y respuesta coordinada ante incidentes.`,
 
-"solutions.business.item1": "Monitoreo centralizado de múltiples instalaciones",
-"solutions.business.item2": "Dashboard profesional con métricas avanzadas",
-"solutions.business.item3": "Prevención proactiva de fallas y fugas",
-"solutions.business.item4": "Reportes automáticos y análisis predictivo",
-"solutions.business.item5": "Gestión multi-sede y multi-usuario",
+"solutions.business.item1": "Gestión multi sede",
+"solutions.business.item2": "Dispositivos, sensores, válvulas y conductos",
+"solutions.business.item3": "Alertas prioritarias e incidentes",
+"solutions.business.item4": "Reportes de consumo por periodo",
+"solutions.business.item5": "Canales de alerta configurables",
 
 "solutions.button": "Solicita Información",
 
@@ -266,24 +265,27 @@ Cancela cuando quieras.`,
 "plans.popular": "Recomendado",
 "plans.buy": "Comprar plan",
 
-"plans.basic.title": "Basic",
-"plans.basic.subtitle": "Ideal para iniciar el monitoreo de una sola sede.",
-"plans.basic.capacity": "1 sede(s) · 3 dispositivo(s)",
+"plans.basic.title": "Essential",
+"plans.basic.subtitle": "Para monitoreo inicial de una sede.",
+"plans.basic.capacity": "1 sede(s) · 5 dispositivo(s)",
 
-"plans.pro.title": "Pro",
-"plans.pro.subtitle": "Para usuarios que necesitan más sedes y reportes.",
-"plans.pro.capacity": "3 sede(s) · 10 dispositivo(s)",
+"plans.pro.title": "Professional",
+"plans.pro.subtitle": "Para equipos que operan varias sedes.",
+"plans.pro.capacity": "5 sede(s) · 35 dispositivo(s)",
 
-"plans.businessPlan.title": "Business",
-"plans.businessPlan.subtitle": "Para negocios con monitoreo intensivo y soporte prioritario.",
-"plans.businessPlan.capacity": "10 sede(s) · 40 dispositivo(s)",
+"plans.businessPlan.title": "Enterprise",
+"plans.businessPlan.subtitle": "Para operaciones con alta criticidad.",
+"plans.businessPlan.capacity": "25 sede(s) · 250 dispositivo(s)",
 
-"plans.feature.basicMonitoring": "Monitoreo básico",
-"plans.feature.essentialAlerts": "Alertas esenciales",
-"plans.feature.multiSite": "Multi-sede",
-"plans.feature.advancedReports": "Reportes avanzados",
-"plans.feature.prioritySupport": "Soporte prioritario",
-"plans.feature.enterpriseApi": "API empresarial",
+"plans.feature.basicMonitoring": "Monitoreo de agua y gas",
+"plans.feature.essentialAlerts": "Alertas operativas",
+"plans.feature.ticketSupport": "Soporte por ticket",
+"plans.feature.expandedSitesDevices": "Sedes y dispositivos ampliados",
+"plans.feature.consumptionReports": "Reportes de consumo",
+"plans.feature.configurableAlertChannels": "Canales de alerta configurables",
+"plans.feature.multiSiteOperation": "Operación multi sede",
+"plans.feature.priorityAlerts": "Alertas prioritarias",
+"plans.feature.advancedOperationalSupport": "Soporte operativo avanzado",
 
 
 // CONTACT
@@ -347,9 +349,8 @@ en: {
   "home.subtitle": `Control your resources,
 <span>prevent leaks</span>`,
 
-  "home.description": `Real-time monitoring of water and gas networks for homes and professionals,
-preventing leaks, improving safety, and reducing costs
-through smart alerts.`,
+  "home.description": `Operational monitoring for water and gas across sites, rooms,
+conducts, sensors, and valves, with alerts, incidents, and consumption reports.`,
 
   "home.primaryButton": "View Plans",
   "home.secondaryButton": "Request Demo",
@@ -359,87 +360,87 @@ through smart alerts.`,
 
 "benefits.title": `Why choose LowCortisol?`,
 
-"benefits.description": `Advanced IoT technology that transforms resource management in your home or business`,
+"benefits.description": `An operations platform to organize sites, measure consumption, and respond to water and gas risks`,
 
 // CARD 1
-"benefits.card1.title": "Enhanced Security",
+"benefits.card1.title": "Risk response",
 
-"benefits.card1.text": `Detect gas and water leaks instantly with automatic alerts.
-Protect your property and people with real-time notifications.`,
+"benefits.card1.text": `Turn critical readings into alerts and incidents so teams can act,
+record actions, and close the operational cycle.`,
 
 // CARD 2
-"benefits.card2.title": "Significant Savings",
+"benefits.card2.title": "Operational savings",
 
-"benefits.card2.text": `Reduce up to 40% in operational costs by eliminating waste.
-Identify consumption patterns and optimize resource usage.`,
+"benefits.card2.text": `Compare readings against consumption limits, review trends, and find opportunities
+to reduce water and gas waste.`,
 
 // CARD 3
-"benefits.card3.title": "Real-Time Monitoring",
+"benefits.card3.title": "Location-based control",
 
-"benefits.card3.text": `Monitor water and gas consumption from anywhere.
-Intuitive dashboard with real-time metrics.`,
+"benefits.card3.text": `Organize sites, rooms, and groups, then link sensors, valves, and conducts
+to understand where each consumption point starts.`,
 
 // FEATURES
 "features.badge": "Features",
 
-"features.title": `Features designed for intelligent monitoring`,
+"features.title": `Features designed for connected operations`,
 
-"features.description": `Our platform helps you monitor consumption, detect leaks early
-and optimize the use of water and gas with clear insights and timely alerts.`,
+"features.description": `Our platform connects location, devices, conducts, limits, alerts,
+and incidents to manage water and gas consumption with actionable information.`,
 
 // CARD 1
-"features.card1.title": "Real-time monitoring",
+"features.card1.title": "Monitoring dashboard",
 
-"features.card1.text": `View water and gas consumption instantly from a single platform.`,
+"features.card1.text": `View accumulated water and gas consumption from active conducts.`,
 
-"features.card1.item1": "Data updated in seconds",
-"features.card1.item2": "Web and mobile visualization",
-"features.card1.item3": "Centralized control of multiple networks",
+"features.card1.item1": "Reading summaries by resource",
+"features.card1.item2": "Charts for water or gas",
+"features.card1.item3": "Limit and anomaly indicators",
 
 // CARD 2
-"features.card2.title": "Smart alerts",
+"features.card2.title": "Alerts and incidents",
 
-"features.card2.text": `Receive automatic notifications for unusual behavior.`,
+"features.card2.text": `Manage critical alerts and coordinate incidents from an operations console.`,
 
-"features.card2.item1": "Alerts via email, SMS, and app",
-"features.card2.item2": "Detection of abnormal consumption",
-"features.card2.item3": "Custom configuration",
+"features.card2.item1": "Alert acknowledgement and closure",
+"features.card2.item2": "Incident creation from alerts",
+"features.card2.item3": "Mitigation action records",
 
 // CARD 3
-"features.card3.title": "History and reports",
+"features.card3.title": "Consumption reports",
 
-"features.card3.text": `Access historical data and analyze patterns.`,
+"features.card3.text": `Generate reports by period and resource using registered readings.`,
 
-"features.card3.item1": "Daily, weekly, and monthly reports",
-"features.card3.item2": "Clear and intuitive charts",
-"features.card3.item3": "Consumption trend analysis",
+"features.card3.item1": "Controlled date ranges",
+"features.card3.item2": "Total consumption by water or gas",
+"features.card3.item3": "Base reading detail",
 
 // CARD 4
-"features.card4.title": "Early leak detection",
+"features.card4.title": "Limits and anomalies",
 
-"features.card4.text": `Identify anomalies before they become risks.`,
+"features.card4.text": `Define consumption limits to classify normal readings, warnings, and critical events.`,
 
-"features.card4.item1": "Automatic leak detection",
-"features.card4.item2": "Prevention of structural damage",
-"features.card4.item3": "Reduction of economic losses",
+"features.card4.item1": "Resource thresholds",
+"features.card4.item2": "Open and critical anomalies",
+"features.card4.item3": "Traceable risk cycle",
 
 // CARD 5
-"features.card5.title": "Intuitive dashboard",
+"features.card5.title": "Connected devices",
 
-"features.card5.text": `Access clear information from any device.`,
+"features.card5.text": `Manage sensors, valves, and conducts within each location.`,
 
-"features.card5.item1": "Simple and user-friendly interface",
-"features.card5.item2": "Responsive design",
-"features.card5.item3": "Quick access to key features",
+"features.card5.item1": "Sites, rooms, and groups",
+"features.card5.item2": "Valves linked to sensors",
+"features.card5.item3": "Conducts linked to one free valve",
 
 // CARD 6
-"features.card6.title": "Cost optimization",
+"features.card6.title": "Savings and support",
 
-"features.card6.text": `Reduce operational costs with efficient control.`,
+"features.card6.text": `Review operational savings and request help when an incident needs follow-up.`,
 
-"features.card6.item1": "Reduction of unnecessary consumption",
-"features.card6.item2": "Prevention of costly leaks",
-"features.card6.item3": "Up to 40% savings in resources",
+"features.card6.item1": "Savings insights",
+"features.card6.item2": "Support tickets",
+"features.card6.item3": "Knowledge articles",
 
 // ABOUT
 "about.badge": "About Us",
@@ -461,40 +462,40 @@ and optimize the use of water and gas with clear insights and timely alerts.`,
 // WHY
 "about.why.title": "Why LowCortisol?",
 
-"about.why.text": `Our name reflects our commitment: eliminating stress (cortisol) associated with managing critical resources. With smart sensors, proactive alerts, and full control from your mobile device, we transform the anxiety of potential failures into peace of mind and efficiency.`,
+"about.why.text": `Our name reflects our commitment: reducing the operational stress around critical resources. With organized sites, readings, limits, alerts, and incidents, we turn water and gas consumption into clear decisions.`,
 
 // SOLUTIONS
 "solutions.title": "Solutions for Everyone",
 
 "solutions.subtitle": "Adapted to your needs",
 
-"solutions.description": `Whether you manage a home, a hotel, or an entire city, we have the perfect solution`,
+"solutions.description": `Whether you manage a small site or an operation with multiple locations, LowCortisol adapts to the level of control you need.`,
 
 // RESIDENTIAL
 "solutions.residential.title": "Residential Users",
 
-"solutions.residential.subtitle": `Protect your home and save from your phone.`,
+"solutions.residential.subtitle": `Initial monitoring for one site.`,
 
-"solutions.residential.text": `Solution designed for users with low or medium technical knowledge who want to prevent leaks, reduce costs, and manage their home in a simple and intuitive way.`,
+"solutions.residential.text": `Designed to start measuring water and gas, register readings, review limits, and handle operational alerts without unnecessary complexity.`,
 
-"solutions.residential.item1": "Quick and easy installation, no technical knowledge required",
-"solutions.residential.item2": "Full control from your smartphone",
-"solutions.residential.item3": "Automatic 24/7 security alerts",
-"solutions.residential.item4": "Cost reduction up to 30-40%",
-"solutions.residential.item5": "Intuitive and easy-to-use interface",
+"solutions.residential.item1": "One site with up to five devices",
+"solutions.residential.item2": "Water and gas monitoring",
+"solutions.residential.item3": "Operational alerts",
+"solutions.residential.item4": "Support by ticket",
+"solutions.residential.item5": "Simple dashboard for consumption review",
 
 // BUSINESS
 "solutions.business.title": "Infrastructure Professionals",
 
 "solutions.business.subtitle": `Centralized and efficient operational management`,
 
-"solutions.business.text": `For administrators, maintenance managers, and operators who require centralized monitoring, failure prevention, and efficient control of multiple facilities (hotels, municipalities, buildings, industries).`,
+"solutions.business.text": `For administrators, maintenance managers, and operators who need site tracking, connected devices, consumption reports, and coordinated incident response.`,
 
-"solutions.business.item1": "Centralized monitoring of multiple facilities",
-"solutions.business.item2": "Professional dashboard with advanced metrics",
-"solutions.business.item3": "Proactive failure and leak prevention",
-"solutions.business.item4": "Automatic reports and predictive analysis",
-"solutions.business.item5": "Multi-site and multi-user management",
+"solutions.business.item1": "Multi-site operation",
+"solutions.business.item2": "Devices, sensors, valves, and conducts",
+"solutions.business.item3": "Priority alerts and incidents",
+"solutions.business.item4": "Consumption reports by period",
+"solutions.business.item5": "Configurable alert channels",
 
 // BUTTON
 "solutions.button": "Request Information",
@@ -511,24 +512,27 @@ Cancel anytime.`,
 "plans.popular": "Recommended",
 "plans.buy": "Buy plan",
 
-"plans.basic.title": "Basic",
-"plans.basic.subtitle": "Ideal to start monitoring a single site.",
-"plans.basic.capacity": "1 site(s) · 3 device(s)",
+"plans.basic.title": "Essential",
+"plans.basic.subtitle": "For initial monitoring of one site.",
+"plans.basic.capacity": "1 site(s) · 5 device(s)",
 
-"plans.pro.title": "Pro",
-"plans.pro.subtitle": "For users who need more sites and reports.",
-"plans.pro.capacity": "3 site(s) · 10 device(s)",
+"plans.pro.title": "Professional",
+"plans.pro.subtitle": "For teams operating several sites.",
+"plans.pro.capacity": "5 site(s) · 35 device(s)",
 
-"plans.businessPlan.title": "Business",
-"plans.businessPlan.subtitle": "For businesses with intensive monitoring and priority support.",
-"plans.businessPlan.capacity": "10 site(s) · 40 device(s)",
+"plans.businessPlan.title": "Enterprise",
+"plans.businessPlan.subtitle": "For high-criticality operations.",
+"plans.businessPlan.capacity": "25 site(s) · 250 device(s)",
 
-"plans.feature.basicMonitoring": "Basic monitoring",
-"plans.feature.essentialAlerts": "Essential alerts",
-"plans.feature.multiSite": "Multi-site",
-"plans.feature.advancedReports": "Advanced reports",
-"plans.feature.prioritySupport": "Priority support",
-"plans.feature.enterpriseApi": "Enterprise API",
+"plans.feature.basicMonitoring": "Water and gas monitoring",
+"plans.feature.essentialAlerts": "Operational alerts",
+"plans.feature.ticketSupport": "Support by ticket",
+"plans.feature.expandedSitesDevices": "Expanded sites and devices",
+"plans.feature.consumptionReports": "Consumption reports",
+"plans.feature.configurableAlertChannels": "Configurable alert channels",
+"plans.feature.multiSiteOperation": "Multi-site operation",
+"plans.feature.priorityAlerts": "Priority alerts",
+"plans.feature.advancedOperationalSupport": "Advanced operational support",
 
 // CONTACT
 "contact.badge": "Contact",
