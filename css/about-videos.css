@@ -1,0 +1,163 @@
+/*=========================================
+ABOUT PRODUCT & ABOUT TEAM
+=========================================*/
+
+.about-product,
+.about-team{
+    padding:90px 0;
+    background:#fff;
+}
+
+.about-product-container,
+.about-team-container{
+    width:min(1180px,92%);
+    margin:auto;
+}
+
+.about-product-content,
+.about-team-content{
+    display:flex;
+    justify-content:center;
+}
+
+/*=========================================
+HEADERS
+=========================================*/
+
+.about-product-header,
+.about-team-header{
+    max-width:760px;
+    margin:0 auto 50px;
+    text-align:center;
+}
+
+.about-product-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px 22px;
+    margin-bottom:22px;
+
+    background:var(--color-primary-light);
+    color:var(--color-primary);
+
+    border:1px solid rgba(47,128,237,.25);
+    border-radius:999px;
+
+    font-size:15px;
+    font-weight:900;
+}
+
+.about-product-header h2,
+.about-team-header h2{
+    color:var(--color-text);
+    font-size:52px;
+    line-height:1.1;
+    font-weight:900;
+    letter-spacing:-0.04em;
+    margin-bottom:18px;
+}
+
+.about-product-header p,
+.about-team-header p{
+    max-width:700px;
+    margin:0 auto;
+    color:var(--color-text-muted);
+    font-size:18px;
+    line-height:1.7;
+}
+
+/*=========================================
+VIDEO CARD
+=========================================*/
+
+.video-card{
+    width:100%;
+    max-width:950px;
+
+    padding:18px;
+
+    background:#fff;
+    border:1px solid var(--color-border);
+    border-radius:24px;
+
+    box-shadow:var(--shadow-card);
+}
+
+.video-card iframe{
+    width:100%;
+    aspect-ratio:16/9;
+
+    border:none;
+    border-radius:18px;
+}
+
+.about-team {
+  background: var(--color-background);
+}
+
+
+/*=========================================
+RESPONSIVE
+=========================================*/
+
+@media (max-width:768px){
+
+    .about-product,
+    .about-team{
+        padding:70px 0;
+    }
+
+    .about-product-header,
+    .about-team-header{
+        margin-bottom:40px;
+    }
+
+    .about-product-header h2,
+    .about-team-header h2{
+        font-size:38px;
+    }
+
+    .about-product-header p,
+    .about-team-header p{
+        font-size:16px;
+    }
+
+    .video-card{
+        padding:14px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .about-product,
+    .about-team{
+        padding:55px 0;
+    }
+
+    .about-product-header h2,
+    .about-team-header h2{
+        font-size:30px;
+    }
+
+    .about-product-header p,
+    .about-team-header p{
+        font-size:15px;
+    }
+
+    .about-product-badge{
+        font-size:14px;
+        padding:8px 18px;
+    }
+
+    .video-card{
+        border-radius:18px;
+        padding:12px;
+    }
+
+    .video-card iframe{
+        border-radius:12px;
+    }
+
+}
